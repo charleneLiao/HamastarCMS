@@ -1,0 +1,72 @@
+//列表群組
+
+//全域列表================================================================
+
+.group-list.global-list {
+	$default-len: 4;
+
+	@include default-len(4, $default-len);
+	@include set-len(4);
+
+	> .bg-drop-layout > .in, > .in {
+
+		> .hd {
+			@extend %header;
+
+			> .in {
+
+			}
+
+			h3 {
+				
+			}
+
+			span {
+					
+			}
+
+			a {
+
+			}
+		}
+
+		> .ct {
+
+			> .in {
+
+				> ul {
+
+					> li {
+						@include len-rwd('pc', 3);
+						@include len-rwd('pad', 2);
+						@include len-rwd('phone', 1);
+					}
+				}
+			}
+		}
+
+		> .ft {
+			@extend %footer;
+
+			> .in {
+
+			}
+
+			ul {
+
+			}
+
+			li {
+
+			}
+
+			span {
+
+			}
+
+			a {
+
+			}
+		}
+	}
+}

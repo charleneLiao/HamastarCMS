@@ -1,0 +1,98 @@
+//表單區塊
+
+//連結================================================================
+
+.area-form.link {
+
+	@include js(false) {
+		display: none;
+	}
+
+	> .bg-drop-layout > .in, > .in {
+
+	}
+
+	.hd {
+		@extend %header;
+
+		> .in {
+
+		}
+
+		h4 {
+
+		}
+
+		span {
+				
+		}
+
+		a {
+
+		}
+	}
+
+	.ct {
+
+		$btn_w: 50px;
+
+		> .in {
+			position: relative;
+		}
+
+		.select {
+			margin-right: $btn_w + $interval-m;
+		}
+
+		select {
+			width: 100%;
+		}
+
+		option {
+			width: 100%;
+		}
+
+		.button {
+			
+		}
+
+		/*input*/[type="button"] {
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			width: $btn_w;
+			background-color: $minor-color;
+			transition: $transition;
+
+			&:hover {
+				background-color: deeper($minor-color);
+			}
+		}
+	}
+
+	.ft {
+		@extend %footer;
+
+		> .in {
+
+		}
+
+		ul {
+
+		}
+
+		li {
+
+		}
+
+		span {
+
+		}
+
+		a {
+
+		}
+	}
+}

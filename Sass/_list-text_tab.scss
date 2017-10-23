@@ -1,0 +1,103 @@
+//文字列表
+
+//頁籤================================================================
+
+.list-text.tab {
+	@include average(0, 2);
+
+	> .bg-drop-layout > .in, > .in {
+
+	}
+
+	.hd {
+		display: none;
+
+		> .in {
+
+		}
+
+		h4 {
+
+		}
+
+		span {
+
+		}
+
+		a {
+
+		}
+	}
+
+	.ct {
+
+		> .in {
+			
+		}
+
+		ul {
+
+		}
+
+		li {
+			position: relative;
+			vertical-align: bottom;
+
+			@include len-rwd('pad', 4);
+			@include len-rwd('phone', 2);
+
+			&.is-active {
+
+				a {
+					background-color: $minor-color;
+					color: $white;
+				}
+			}
+		}
+
+		span {
+			display: block;
+			margin: $interval-xs;
+		}
+
+		a {
+			@extend %ellipsis;
+			display: block;
+			padding: $interval-l;
+			background-color: $light;
+			color: $body-font-color;
+			text-align: center;
+
+			&:hover {
+				color: $major-color;
+			}
+		}
+
+		/*i*/.mark {
+			
+		}
+	}
+
+	.ft {
+
+		> .in {
+
+		}
+
+		ul {
+
+		}
+
+		li {
+
+		}
+
+		span {
+
+		}
+
+		a {
+
+		}
+	}
+}

@@ -1,0 +1,80 @@
+//簡單文字
+
+//文字回覆================================================================
+
+.simple-text.text-result {
+
+	> .bg-drop-layout > .in, > .in {
+		padding: $interval-l;
+		text-align: center;
+
+		@include media('mobile') {
+			padding: $interval-m;
+		}
+	}
+
+	.hd {
+		display: inline-block;
+		vertical-align: middle;
+
+		> .in {
+
+		}
+
+		h4 {
+			font-size: $font-size-xl;
+		}
+
+		span {
+			
+			&:after {
+				content: ': ';
+			}
+		}
+
+		a {
+			
+		}
+	}
+
+	.ct {
+		display: inline-block;
+		vertical-align: middle;
+
+		> .in {
+
+		}
+
+		span {
+			font-size: $font-size-xxl;
+			color: $title-color;
+		}
+
+		/*i*/.mark {
+			
+		}
+	}
+
+	.ft {
+
+		> .in {
+
+		}
+
+		ul {
+
+		}
+
+		li {
+
+		}
+
+		span {
+
+		}
+
+		a {
+
+		}
+	}
+}

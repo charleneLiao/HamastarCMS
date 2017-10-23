@@ -1,0 +1,64 @@
+//框架
+
+//頁尾資訊================================================================
+
+.base-footer {
+	background-color: $white;
+
+	&.is-active {
+
+		> .in {
+
+			> .hd {
+
+				a {
+
+					&:before {
+						@include icon-font('arrow_drop_up');
+					}
+				}
+			}
+		}
+	}
+
+	> .in {
+
+		> .hd {
+
+			@include js(false) {
+				display: none;
+			}
+
+			@include media('mobile') {
+				display: none;
+			}
+
+			> .in {
+				@extend %center;
+				position: relative;
+			}
+
+			h3 {
+			}
+
+			span {
+				display: inline-block;
+			}
+
+			a {
+
+				&:before {
+					@include icon-font('arrow_drop_down');
+					margin-right: $interval-xs;
+				}
+			}
+		}
+
+		> .ct {
+
+			> .in {
+
+			}
+		}
+	}
+}

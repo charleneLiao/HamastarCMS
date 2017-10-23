@@ -1,0 +1,472 @@
+//表單區塊
+
+//搜尋================================================================
+.area-customize-form_search{
+	.base-extend & {
+		position: absolute;
+    left: 300px;
+		z-index: 4;
+		top: -2px;
+		@include media('mobile') {
+			display: none;
+		}
+
+		&.is-open {
+
+			.ct {
+
+				.list {
+					display: block;
+				}
+			}
+		}
+
+		> .bg-drop-layout > .in, > .in {
+			margin: 0;
+		}
+
+		.hd {
+			> .in {
+			}
+
+			h4 {
+
+			}
+
+			span {
+
+			}
+
+			a {
+
+			}
+		}
+
+		.ct {
+			display: inline-block;
+			vertical-align: middle;
+
+			> .in {
+
+			}
+
+			.fieldset {
+				position: relative;
+				border: 1px solid $light-gray;
+				border-radius: 3px;
+					padding: 0 0px 0 10px;
+					&:before{
+						@include fontAwesome('window-maximize');
+						width: 20px;
+						height: 20px;
+						display: inline-block;
+						margin-right: 9px;
+					}
+
+				@include js(false) {
+					display: none;
+				}
+
+				span {
+					$icon-width: 36px;
+					&.search {
+						select{
+							width: 350px;
+							padding: 7px;
+							font-size: 1em;
+							box-shadow: none;
+							border: 0;
+							border-left: 1px solid $light-gray;
+						}
+						input {
+							display: block;
+							width: 100%;
+							border: 0;
+						}
+					}
+
+					&.submit {
+
+						a {
+							position: absolute;
+							top: 0;
+							right: 0;
+							bottom: 0;
+							width: $icon-width;
+							background-color: $btn-bg-color;
+							@extend %hide-text;
+							@include bg-to-pic('icon-pic/icon-w-search.png' ,false);
+
+							&:hover {
+								background-color: $btn-hover-bg-color;
+							}
+						}
+					}
+				}
+			}
+
+			.list {
+				position: absolute;
+				top: 100%;
+				left: 0;
+				right: 0;
+				display: none;
+
+				ul {
+					margin-top: $interval-m;
+				}
+
+				li {
+
+					+ li {
+						margin-top: $interval-s;
+					}
+				}
+
+				span {
+					display: block;
+				}
+
+				a {
+					display: block;
+					padding: $btn-padding;
+					box-shadow: $box-shadow;
+					background-color: $white;
+
+					&:hover {
+						background-color: $light;
+					}
+				}
+			}
+		}
+
+		.ft {
+			display: inline-block;
+			vertical-align: middle;
+			padding-left: $interval-s;
+
+			> .in {
+
+			}
+
+			ul {
+				    margin-top: 3px;
+			}
+
+			li {
+				&.webPublic, &.usebook{
+					display: inline-block;
+					margin: 0 2px 0 4px;
+					a{
+						background: url("../Images/icon_button.png") ;
+						display: inline-block;
+						width: 31px;
+						height: 31px;
+					}
+				}
+				&.usebook {
+					a{
+						background-position-x: 33px;
+					}
+				}
+			}
+
+			span {
+
+			}
+
+			a {
+				font-size: $font-size-s;
+
+				@include js(false) {
+					@extend %btn;
+				}
+			}
+		}
+	}
+}
+.area-form.search {
+
+	.base-mobile & {
+
+		> .bg-drop-layout > .in, > .in {
+
+		}
+
+		.hd {
+			display: none;
+
+			> .in {
+
+			}
+
+			h4 {
+
+			}
+
+			span {
+
+			}
+
+			a {
+
+			}
+		}
+
+		.ct {
+
+			> .in {
+
+			}
+
+			.fieldset {
+				position: relative;
+
+				span {
+					$icon-width: 36px;
+
+					display: block;
+
+					&.search {
+						display: block;
+						padding-right: $icon-width;
+
+						input {
+							display: block;
+							width: 100%;
+						}
+					}
+
+					&.submit {
+
+						a {
+							position: absolute;
+							top: 0;
+							right: 0;
+							bottom: 0;
+							width: $icon-width;
+							background-color: $major-color;
+							@extend %hide-text;
+							@include bg-to-pic('icon-pic/icon-w-search.png' ,false)
+						}
+					}
+				}
+			}
+
+			.list {
+				display: none;
+
+				ul {
+
+				}
+
+				li {
+
+				}
+
+				span {
+
+				}
+
+				a {
+
+				}
+			}
+		}
+
+		.ft {
+
+			> .in {
+
+			}
+
+			ul {
+				margin-top: $interval-m;
+			}
+
+			li {
+				display: block;
+
+				&.advanced {
+
+				}
+			}
+
+			span {
+				display: block;
+			}
+
+			a {
+				display: block;
+				padding: $btn-padding;
+				background-color: $major-color;
+				color: $white;
+				font-size: $font-size-s;
+				text-align: center;
+			}
+		}
+	}
+
+	.base-wrapper & {
+		position: absolute;
+		top: 40px;
+		right: 10px;
+		z-index: 4;
+
+		@include media('mobile') {
+			display: none;
+		}
+
+		&.is-open {
+
+			.ct {
+
+				.list {
+					display: block;
+				}
+			}
+		}
+
+		> .bg-drop-layout > .in, > .in {
+			margin: 0;
+		}
+
+		.hd {
+			// display: none;
+
+			> .in {
+
+			}
+
+			h4 {
+
+			}
+
+			span {
+
+			}
+
+			a {
+
+			}
+		}
+
+		.ct {
+			display: inline-block;
+			vertical-align: middle;
+
+			> .in {
+
+			}
+
+			.fieldset {
+				position: relative;
+
+				@include js(false) {
+					display: none;
+				}
+
+				span {
+					$icon-width: 36px;
+
+					display: block;
+
+					&.search {
+						display: block;
+						padding-right: $icon-width;
+						width: 200px;
+
+						input {
+							display: block;
+							width: 100%;
+						}
+					}
+
+					&.submit {
+
+						a {
+							position: absolute;
+							top: 0;
+							right: 0;
+							bottom: 0;
+							width: $icon-width;
+							background-color: $btn-bg-color;
+							@extend %hide-text;
+							@include bg-to-pic('icon-pic/icon-w-search.png' ,false);
+
+							&:hover {
+								background-color: $btn-hover-bg-color;
+							}
+						}
+					}
+				}
+			}
+
+			.list {
+				position: absolute;
+				top: 100%;
+				left: 0;
+				right: 0;
+				display: none;
+
+				ul {
+					margin-top: $interval-m;
+				}
+
+				li {
+
+					+ li {
+						margin-top: $interval-s;
+					}
+				}
+
+				span {
+					display: block;
+				}
+
+				a {
+					display: block;
+					padding: $btn-padding;
+					box-shadow: $box-shadow;
+					background-color: $white;
+
+					&:hover {
+						background-color: $light;
+					}
+				}
+			}
+		}
+
+		.ft {
+			display: inline-block;
+			vertical-align: middle;
+			padding-left: $interval-s;
+
+			> .in {
+
+			}
+
+			ul {
+			}
+
+			li {
+
+				&.advanced {
+
+				}
+			}
+
+			span {
+
+			}
+
+			a {
+				font-size: $font-size-s;
+
+				@include js(false) {
+					@extend %btn;
+				}
+			}
+		}
+	}
+}

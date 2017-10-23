@@ -1,0 +1,229 @@
+//文字列表
+
+//選單================================================================
+
+.list-text.answer {
+
+	$right: #3c763d;
+	$wrong: #cc4400;
+
+	&.is-right, &.is-wrong {
+
+		.hd {
+
+			a {
+				$pic_z: 32px;
+
+				padding-left: $pic_z + $interval-m * 2;
+
+				&:before {
+					content: $content;
+					position: absolute;
+					top: 0;
+					left: $interval-m;
+					width: $pic_z;
+					bottom: 0;
+					background-repeat: no-repeat;
+					background-position: center;
+				}
+			}
+		}
+
+		.ct {
+
+		}
+	}
+
+	&.is-right {
+		
+		.hd {
+
+			a {
+
+				&:before {
+					background-image: image-url('icon-pic/icon_answer-right.png');
+				}
+			}
+		}
+	}
+
+	&.is-wrong {
+
+		.hd {
+
+			a {
+
+				&:before {
+					background-image: image-url('icon-pic/icon_answer-wrong.png');
+				}
+			}
+		}
+	}
+
+	> .bg-drop-layout > .in, > .in {
+
+	}
+
+	.hd {  //副總要求要和關務署樣式一樣
+
+		> .in {
+
+		}
+
+		h4 {
+
+		}
+
+		span {
+			display: block;
+		}
+
+		a {
+			position: relative;
+			display: block;
+			font-size: $font-size-l;
+			padding: $interval-m;
+			color: #607d8b;
+			border-bottom: 1px dotted #607d8b;
+			font-weight: $font-weight-b;
+		}
+	}
+
+	.ct {
+		$type-size: 28px;
+		$answer-size: 28px;
+
+		padding: $interval-m;
+
+		> .in {
+			
+		}
+
+		ul {
+
+		}
+
+		li {
+
+			+ li {
+				margin-top: $interval-s;
+			}
+
+			&.is-radio {
+
+				&.is-select {
+
+					a {
+
+						&:before {
+							background-image: image-url('icon-pic/icon_answer-radio-checked.png');
+						}
+					}
+				}
+
+				a {
+					padding-left: $type-size + $interval-m;
+
+					&:before {
+						content: $content;
+						border-radius: 50%;
+						background-image: image-url('icon-pic/icon_answer-radio.png');
+					}
+				}
+			}
+
+			&.is-checkbox {
+
+				&.is-select {
+
+					a {
+
+						&:before {
+							background-image: image-url('icon-pic/icon_answer-checkbox-checked.png');
+						}
+					}
+				}
+
+				a {
+					padding-left: $type-size + $interval-m;
+
+					&:before {
+						content: $content;
+						border-radius: $border-radius;
+						background-image: image-url('icon-pic/icon_answer-checkbox.png');
+					}
+				}
+			}
+
+			&.is-answer {
+
+				span {
+
+					&:before {
+						content: $content;
+					}
+				}
+			}
+		}
+
+		span {
+			display: block;
+			position: relative;
+			padding-left: $answer-size + $interval-l;
+
+			&:before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				width: $answer-size;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-image: image-url('icon-pic/icon_answer-select-right.png');
+			}
+		}
+
+		a {
+			display: block;
+			position: relative;
+			padding: $interval-m;
+
+			&:before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				width: $type-size;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+		}
+
+		/*i*/.mark {
+			
+		}
+	}
+
+	.ft {
+
+		> .in {
+
+		}
+
+		ul {
+
+		}
+
+		li {
+
+		}
+
+		span {
+
+		}
+
+		a {
+
+		}
+	}
+}

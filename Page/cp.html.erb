@@ -1,0 +1,116 @@
+<%= render partial: "/erb/sys_variable" %>
+
+<link rel="stylesheet" media="screen" href="/css/cp.css"> <!-- cp 頁 -->
+
+<div class="area-editor user-edit" data-index="1" data-type="0" data-func="{'imgMapRwd':{},'tableImgRwd':{}}"><div class="in">
+	<div class="hd"><div class="in">
+		<h4><span><a href="#">cp 頁框架</a></span></h4>
+	</div></div>
+	<div class="ct"><div class="in">
+
+		<!-- 標題 -->
+		<h4 class="cp caption">標題</h4>
+
+		<!-- 介紹 -->
+		<div class="cp interduce">
+			<img src="<%= lorem_image('180x320') %>" alt="">
+			<ul class="cp interduce-list">
+				<li><span class="cp interduce-caption"><%= zh_lorem_sentence %>：</span><%= zh_lorem_paragraphs 2 %></li>
+				<li><span class="cp interduce-caption"><%= zh_lorem_sentence %>：</span><%= zh_lorem_paragraphs 2 %></li>
+				<li><span class="cp interduce-caption"><%= zh_lorem_sentence %>：</span><%= zh_lorem_paragraphs 2 %></li>
+				<li><span class="cp interduce-caption"><%= zh_lorem_sentence %>：</span><%= zh_lorem_paragraphs 2 %></li>
+				<li><span class="cp interduce-caption"><%= zh_lorem_sentence %>：</span><%= zh_lorem_paragraphs 2 %></li>
+			</ul>
+		</div>
+
+		<!-- 單圖文字 -->
+		<div class="cp single-pic">
+			<img src="<%= lorem_image('640x320') %>" alt="">
+			<img src="<%= lorem_image('640x320') %>" alt="">
+		</div>
+		<div class="cp p">
+			<p><%= zh_lorem_paragraphs 3 %></p>
+		</div>
+
+		<!-- 多圖文字 -->
+		<div class="cp multi-pic">
+			<img src="<%= lorem_image('640x320') %>" alt="">
+			<img src="<%= lorem_image('640x320') %>" alt="">
+		</div>
+		<div class="cp p">
+			<p><%= zh_lorem_paragraphs 3 %></p>
+		</div>
+
+		<!-- 文繞圖 -->
+		<div class="cp around-pic">
+			<img src="<%= lorem_image('200x200') %>" alt="">
+			<p><%= zh_lorem_paragraphs 3 %></p>
+		</div>
+
+		<!-- 影片文字 -->
+		<div class="cp video">
+			<iframe src="https://www.youtube.com/embed/jO66_VQRHP4" frameborder="0" allowfullscreen height="240"></iframe>
+		</div>
+		<div class="cp p">
+			<p><%= zh_lorem_paragraphs 3 %></p>
+		</div>
+
+		<!-- 純文字 -->
+		<div class="cp p">
+			<p><%= zh_lorem_paragraphs 3 %></p>
+		</div>
+
+		<!-- 單圖 -->
+		<div class="cp single-pic">
+			<img src="<%= lorem_image('640x320') %>" alt="">
+			<img src="<%= lorem_image('640x320') %>" alt="">
+		</div>
+
+		<!-- 多圖 -->
+		<div class="cp multi-pic">
+			<img src="<%= lorem_image('640x320') %>" alt="">
+			<img src="<%= lorem_image('640x320') %>" alt="">
+		</div>
+
+		<!-- 表格 -->
+		<table class="cp table">
+			<tbody>
+				<tr>
+					<td><img src="<%= lorem_image('128x128') %>" alt=""><%= zh_lorem_paragraph %></td>
+					<td><img src="<%= lorem_image('128x128') %>" alt=""><%= zh_lorem_paragraph %></td>
+				</tr>
+				<tr>
+					<td><img src="<%= lorem_image('128x128') %>" alt=""><%= zh_lorem_paragraph %></td>
+					<td><img src="<%= lorem_image('128x128') %>" alt=""><%= zh_lorem_paragraph %></td>
+				</tr>
+				<tr>
+					<td><img src="<%= lorem_image('128x128') %>" alt=""><%= zh_lorem_paragraph %></td>
+					<td><img src="<%= lorem_image('128x128') %>" alt=""><%= zh_lorem_paragraph %></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- 2/1 圖文 -->
+		<div class="cp half-area">
+			<div class="cp p">
+				<p><%= zh_lorem_paragraphs 5 %></p>
+			</div>
+			<div class="cp img_area">
+				<img src="<%= lorem_image('320x160') %>" alt="">
+				<img src="<%= lorem_image('320x160') %>" alt="">
+			</div>
+		</div>
+
+		<!-- 3/1 圖文 -->
+		<div class="cp one_third-area">
+			<div class="cp p">
+				<p><%= zh_lorem_paragraphs 5 %></p>
+			</div>
+			<div class="cp img_area">
+				<img src="<%= lorem_image('320x160') %>" alt="">
+				<img src="<%= lorem_image('320x160') %>" alt="">
+			</div>
+		</div>
+
+	</div></div>
+</div></div>

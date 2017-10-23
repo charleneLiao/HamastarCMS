@@ -1,0 +1,68 @@
+//群組
+
+//樣本================================================================
+
+.group-list.sample {
+
+	> .bg-drop-layout > .in, > .in {
+		margin-left: $interval-m;
+		margin-right: $interval-m;
+
+		> .hd {
+			@extend %header;
+
+			> .in {
+
+			}
+
+			h3 {
+
+			}
+
+			span {
+					
+			}
+
+			a {
+
+			}
+		}
+
+		> .ct {
+
+			> .in {
+
+				> ul {
+
+					> li {
+						
+					}
+				}
+			}
+		}
+
+		> .ft {
+			@extend %footer;
+
+			> .in {
+
+			}
+
+			ul {
+				
+			}
+
+			li {
+
+			}
+
+			span {
+
+			}
+
+			a {
+
+			}
+		}
+	}
+}

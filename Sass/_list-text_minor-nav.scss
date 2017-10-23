@@ -1,0 +1,102 @@
+//文字列表
+
+//次選單================================================================
+
+.list-text.minor-nav {
+
+	> .bg-drop-layout > .in, > .in {
+		border: $border;
+		background-color: $white;
+	}
+
+	.hd {
+		background-color: $major-color;
+
+		> .in {
+
+		}
+
+		h4 {
+			padding: $interval-l;
+			color: $white;
+			font-size: $font-size-l;
+		}
+
+		span {
+
+		}
+
+		a {
+
+		}
+	}
+
+	.ct {
+		border-top: $border;
+		border-top-color: $white;
+
+		> .in {
+			
+		}
+
+		ul {
+			
+		}
+
+		li {
+
+			+ li {
+				border-top: $border;
+			}
+
+			&.is-active {
+
+				a {
+					background-color: $major-color;
+					color: $white;
+				}
+			}
+		}
+
+		span {
+			display: block;
+		}
+
+		a {
+			display: block;
+			padding: 12px;
+
+			&:hover {
+				background-color: $light;
+				color: currentColor;
+			}
+		}
+
+		/*i*/.mark {
+			
+		}
+	}
+
+	.ft {
+
+		> .in {
+
+		}
+
+		ul {
+
+		}
+
+		li {
+
+		}
+
+		span {
+
+		}
+
+		a {
+
+		}
+	}
+}

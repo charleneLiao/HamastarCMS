@@ -1,0 +1,227 @@
+//自訂
+body{
+	background-color: $lesser1-color;
+}
+.info {
+
+	.base-header & {
+		background-color: $white;
+
+		> .bg-drop-layout > .in, > .in {
+			@extend %center;
+
+			> .hd {
+				display: none;
+
+				> .in {
+
+				}
+
+				h3 {
+
+				}
+
+				span {
+
+				}
+
+				a {
+
+				}
+			}
+
+			> .ct {
+
+				> .in {
+
+					&:after {
+						@extend %clear;
+					}
+				}
+			}
+		}
+	}
+
+	.base-content & {
+
+		> .bg-drop-layout > .in, > .in {
+
+			> .hd {
+				display: none;
+
+				> .in {
+
+				}
+
+				h3 {
+
+				}
+
+				span {
+
+				}
+
+				a {
+
+				}
+			}
+
+			> .ct {
+
+				> .in {
+					border-bottom: $border;
+					margin-bottom: $interval-m;
+				}
+			}
+		}
+	}
+
+	.base-footer & {
+
+		> .bg-drop-layout > .in, > .in {
+			@extend %center;
+
+			> .hd {
+				display: none;
+
+				> .in {
+
+				}
+
+				h3 {
+
+				}
+
+				span {
+
+				}
+
+				a {
+
+				}
+			}
+
+			> .ct {
+
+				> .in {
+
+					&:after {
+						@extend %clear;
+					}
+				}
+			}
+		}
+	}
+}
+
+.msg-tool {
+
+	.base-header & {
+		position: relative;
+
+		> .bg-drop-layout > .in, > .in {
+
+			> .hd {
+
+				> .in {
+
+				}
+
+				h3 {
+
+				}
+
+				span {
+
+				}
+
+				a {
+
+				}
+			}
+
+			> .ct {
+
+				> .in {
+
+				}
+			}
+		}
+	}
+
+	.base-content & {
+		position: absolute;
+		right: 0;
+		top: $interval-s;
+
+		@include js(false) {
+			display: none;
+		}
+
+		@include media('mobile') {
+			display: none;
+		}
+
+		> .bg-drop-layout > .in, > .in {
+
+			> .hd {
+
+				> .in {
+
+				}
+
+				h3 {
+
+				}
+
+				span {
+
+				}
+
+				a {
+
+				}
+			}
+
+			> .ct {
+
+				> .in {
+
+				}
+			}
+		}
+	}
+
+	.base-footer & {
+		overflow: hidden;
+
+		> .bg-drop-layout > .in, > .in {
+
+			> .hd {
+
+				> .in {
+
+				}
+
+				h3 {
+
+				}
+
+				span {
+
+				}
+
+				a {
+
+				}
+			}
+
+			> .ct {
+
+				> .in {
+
+				}
+			}
+		}
+	}
+}

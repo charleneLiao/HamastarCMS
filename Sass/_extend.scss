@@ -1,0 +1,553 @@
+//全域自訂================================================================
+
+
+//範本 oka
+.cp {
+
+	&.caption {
+		font-size: $font-size-l;
+		line-height: 32px;
+		margin: $interval-m 0;
+	}
+
+	&.interduce {
+		margin: $interval-m 0;
+
+		> img {	
+			float: left;
+			max-width: 40% !important;
+			margin-right: $interval-l;
+
+			@include media('phone') {
+				margin: $interval-m 0;
+				display: block;
+				max-width: none !important;
+				float: none;
+			}
+		}
+
+		&:after {
+			@extend %clear;
+		}
+	}
+
+	&.interduce-list {
+		overflow: hidden;
+		list-style: none;
+		border-left: $border;
+		padding-left: $interval-l;
+
+		@include media('phone') {
+			overflow: visible;
+			border-left: 0;
+			padding-left: 0;
+		}
+
+		li {
+
+			+ li {
+				margin-top: $interval-m;
+			}
+		}
+	}
+
+	&.interduce-caption {
+		font-weight: $font-weight-b;
+		display: block;
+		margin: $interval-m 0;
+	}
+
+	&.single-pic {
+		padding: $interval-s;
+		margin: $interval-m 0;
+
+		@include media('mobile') {
+			padding: 0;
+		}
+		
+		img {
+			display: block;
+			width: 98%;
+			margin: 0 auto;
+
+			@include media('mobile') {
+				width: 100%;
+			}
+
+			+ img {
+				margin-top: $interval-m;
+			}
+		}
+	}
+
+	&.multi-pic {
+		padding: $interval-s;
+		margin: $interval-m 0;
+
+		@include media('mobile') {
+			padding: 0;
+		}
+		
+		img {
+			width: 48%;
+			margin: $interval-s 1%;
+			float: left;
+
+			@include media('mobile') {	
+				display: block;
+				width: 100%;
+				margin: 0;
+			}
+
+			+ img {
+
+				@include media('mobile') {
+					margin-top: $interval-m;
+				}
+			}
+		}
+
+		&:after {
+			@extend %clear;
+		}
+	}
+
+	&.video {
+		margin: $interval-m 0;
+		
+		video {
+			display: block;
+			width: 100%;
+			min-height: 60px
+		}
+
+		iframe {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	&.around-pic {
+		margin: $interval-m 0;
+
+		img {
+			float: left;
+			margin: 0 $interval-m $interval-m 0;
+
+			@include media('phone') {	
+				display: block;
+				width: 100%;
+				margin-bottom: $interval-m;
+			}
+		}
+
+		&:after {
+			@extend %clear;
+		}
+	}
+
+	&.table {
+		margin: $interval-m 0;
+		table-layout: fixed;
+		width: 100%;
+		padding: 1px 0;
+		border-top: 2px solid $deep;
+		border-bottom: 2px solid $deep;
+
+		tbody {
+
+		}
+
+		tr {
+			
+			+ tr {
+
+				td {
+					border-top: $border;
+				}
+			}
+
+			th{
+				background-color: $major-color;
+			}
+		}
+
+		td {
+			padding: $interval-m;
+			vertical-align: top;
+
+			+ td {
+				border-left: $border;
+			}
+
+			&:after {
+				@extend %clear;
+			}
+		}
+
+		img {
+			float: left;
+			margin: $interval-s;
+		}
+	}
+
+	&.p {
+		margin: $interval-m 0;
+	}
+
+	&.half-area {
+		margin: $interval-m 0;
+		
+		.cp {
+
+			&.p {
+				width: 50%;
+				float: left;
+
+				@include media('phone') {
+					width: auto;
+					float: none;
+				}
+			}
+
+			&.img_area {
+				overflow: hidden;
+				padding: $interval-m;
+
+				@include media('phone') {
+					margin-top: $interval-m;
+					padding: 0;
+				}
+
+				img {
+					display: block;
+					width: 100%;
+
+					+ img {
+						margin-top: $interval-m;
+					}
+				}
+			}
+		}
+
+		&:after {
+			@extend %clear;
+		}
+	}
+
+	&.one_third-area {
+		margin: $interval-m 0;
+		
+		.cp {
+
+			&.p {
+				width: 66.6666%;
+				float: left;
+
+				@include media('phone') {
+					width: auto;
+					float: none;
+				}
+			}
+
+			&.img_area {
+				overflow: hidden;
+				padding: $interval-m;
+
+				@include media('phone') {
+					margin-top: $interval-m;
+					padding: 0;
+				}
+
+				img {
+					display: block;
+					width: 100%;
+
+					+ img {
+						margin-top: $interval-m;
+					}
+				}
+			}
+		}
+
+		&:after {
+			@extend %clear;
+		}
+	}
+}
+
+// 自訂列表 君平
+ol.bignum,
+ol.parbignum,
+ol.num,
+ol.parnum {
+    padding-left: 0;
+    display: table;
+}
+
+ol.bignum[start="1"] {
+    counter-reset: cnt 0;
+}
+ol.parbignum[start="1"] {
+    counter-reset: parcnt 0;
+}
+ol.num[start="1"] {
+    counter-reset: num 0;
+}
+ol.parnum[start="1"] {
+    counter-reset: parnum 0;
+}
+
+ol.bignum>li,
+ol.parbignum>li,
+ol.num>li ,
+ol.parnum>li {
+    list-style-type: none;
+    display: table-row;
+}
+
+ol.bignum>li {
+    counter-increment: cnt;
+}
+ol.parbignum>li {
+    counter-increment: parcnt;
+}
+ol.num>li {
+    counter-increment: num;
+}
+ol.parnum>li {
+    counter-increment: parnum;
+}
+
+ol.bignum>li:before,
+ol.parbignum>li:before,
+ol.num>li:before,
+ol.parnum>li:before {
+    padding-right:3px;
+    display: table-cell;
+    white-space: nowrap;
+}
+
+ol.bignum>li:before {
+    content: counter(cnt, cjk-ideographic)"、" !important;
+}
+ol.parbignum>li:before {
+    content: "("counter(parcnt, cjk-ideographic)")" !important;
+}
+ol.num>li:before {
+    content: counter(num)".";
+}
+ol.parnum>li:before {
+    content: "("counter(parnum)")";
+}
+
+ol.parbignum > li:nth-child(1)::before{content:"(一)";}
+ol.parbignum > li:nth-child(2)::before{content:"(二)";}
+ol.parbignum > li:nth-child(3)::before{content:"(三)";}
+ol.parbignum > li:nth-child(4)::before{content:"(四)";}
+ol.parbignum > li:nth-child(5)::before{content:"(五)";}
+ol.parbignum > li:nth-child(6)::before{content:"(六)";}
+ol.parbignum > li:nth-child(7)::before{content:"(七)";}
+ol.parbignum > li:nth-child(8)::before{content:"(八)";}
+ol.parbignum > li:nth-child(9)::before{content:"(九)";}
+ol.parbignum > li:nth-child(10)::before{content:"(十)";}
+ol.parbignum > li:nth-child(11)::before{content:"(十一)";}
+ol.parbignum > li:nth-child(12)::before{content:"(十二)";}
+ol.parbignum > li:nth-child(13)::before{content:"(十三)";}
+ol.parbignum > li:nth-child(14)::before{content:"(十四)";}
+ol.parbignum > li:nth-child(15)::before{content:"(十五)";}
+ol.parbignum > li:nth-child(16)::before{content:"(十六)";}
+ol.parbignum > li:nth-child(17)::before{content:"(十七)";}
+ol.parbignum > li:nth-child(18)::before{content:"(十八)";}
+ol.parbignum > li:nth-child(19)::before{content:"(十九)";}
+ol.parbignum > li:nth-child(20)::before{content:"(二十)";}
+ol.parbignum > li:nth-child(21)::before{content:"(二十一)";}
+ol.parbignum > li:nth-child(22)::before{content:"(二十二)";}
+ol.parbignum > li:nth-child(23)::before{content:"(二十三)";}
+ol.parbignum > li:nth-child(24)::before{content:"(二十四)";}
+ol.parbignum > li:nth-child(25)::before{content:"(二十五)";}
+ol.parbignum > li:nth-child(26)::before{content:"(二十六)";}
+ol.parbignum > li:nth-child(27)::before{content:"(二十七)";}
+ol.parbignum > li:nth-child(28)::before{content:"(二十八)";}
+ol.parbignum > li:nth-child(29)::before{content:"(二十九)";}
+ol.parbignum > li:nth-child(30)::before{content:"(三十)";}
+ol.parbignum > li:nth-child(31)::before{content:"(三十一)";}
+ol.parbignum > li:nth-child(32)::before{content:"(三十二)";}
+ol.parbignum > li:nth-child(33)::before{content:"(三十三)";}
+ol.parbignum > li:nth-child(34)::before{content:"(三十四)";}
+ol.parbignum > li:nth-child(35)::before{content:"(三十五)";}
+ol.parbignum > li:nth-child(36)::before{content:"(三十六)";}
+ol.parbignum > li:nth-child(37)::before{content:"(三十七)";}
+ol.parbignum > li:nth-child(38)::before{content:"(三十八)";}
+ol.parbignum > li:nth-child(39)::before{content:"(三十九)";}
+ol.parbignum > li:nth-child(40)::before{content:"(四十)";}
+ol.parbignum > li:nth-child(41)::before{content:"(四十一)";}
+ol.parbignum > li:nth-child(42)::before{content:"(四十二)";}
+ol.parbignum > li:nth-child(43)::before{content:"(四十三)";}
+ol.parbignum > li:nth-child(44)::before{content:"(四十四)";}
+ol.parbignum > li:nth-child(45)::before{content:"(四十五)";}
+ol.parbignum > li:nth-child(46)::before{content:"(四十六)";}
+ol.parbignum > li:nth-child(47)::before{content:"(四十七)";}
+ol.parbignum > li:nth-child(48)::before{content:"(四十八)";}
+ol.parbignum > li:nth-child(49)::before{content:"(四十九)";}
+ol.parbignum > li:nth-child(50)::before{content:"(五十)";}
+ol.parbignum > li:nth-child(51)::before{content:"(五十一)";}
+ol.parbignum > li:nth-child(52)::before{content:"(五十二)";}
+ol.parbignum > li:nth-child(53)::before{content:"(五十三)";}
+ol.parbignum > li:nth-child(54)::before{content:"(五十四)";}
+ol.parbignum > li:nth-child(55)::before{content:"(五十五)";}
+ol.parbignum > li:nth-child(56)::before{content:"(五十六)";}
+ol.parbignum > li:nth-child(57)::before{content:"(五十七)";}
+ol.parbignum > li:nth-child(58)::before{content:"(五十八)";}
+ol.parbignum > li:nth-child(59)::before{content:"(五十九)";}
+ol.parbignum > li:nth-child(60)::before{content:"(六十)";}
+ol.parbignum > li:nth-child(61)::before{content:"(六十一)";}
+ol.parbignum > li:nth-child(62)::before{content:"(六十二)";}
+ol.parbignum > li:nth-child(63)::before{content:"(六十三)";}
+ol.parbignum > li:nth-child(64)::before{content:"(六十四)";}
+ol.parbignum > li:nth-child(65)::before{content:"(六十五)";}
+ol.parbignum > li:nth-child(66)::before{content:"(六十六)";}
+ol.parbignum > li:nth-child(67)::before{content:"(六十七)";}
+ol.parbignum > li:nth-child(68)::before{content:"(六十八)";}
+ol.parbignum > li:nth-child(69)::before{content:"(六十九)";}
+ol.parbignum > li:nth-child(70)::before{content:"(七十)";}
+ol.parbignum > li:nth-child(71)::before{content:"(七十一)";}
+ol.parbignum > li:nth-child(72)::before{content:"(七十二)";}
+ol.parbignum > li:nth-child(73)::before{content:"(七十三)";}
+ol.parbignum > li:nth-child(74)::before{content:"(七十四)";}
+ol.parbignum > li:nth-child(75)::before{content:"(七十五)";}
+ol.parbignum > li:nth-child(76)::before{content:"(七十六)";}
+ol.parbignum > li:nth-child(77)::before{content:"(七十七)";}
+ol.parbignum > li:nth-child(78)::before{content:"(七十八)";}
+ol.parbignum > li:nth-child(79)::before{content:"(七十九)";}
+ol.parbignum > li:nth-child(80)::before{content:"(八十)";}
+ol.parbignum > li:nth-child(81)::before{content:"(八十一)";}
+ol.parbignum > li:nth-child(82)::before{content:"(八十二)";}
+ol.parbignum > li:nth-child(83)::before{content:"(八十三)";}
+ol.parbignum > li:nth-child(84)::before{content:"(八十四)";}
+ol.parbignum > li:nth-child(85)::before{content:"(八十五)";}
+ol.parbignum > li:nth-child(86)::before{content:"(八十六)";}
+ol.parbignum > li:nth-child(87)::before{content:"(八十七)";}
+ol.parbignum > li:nth-child(88)::before{content:"(八十八)";}
+ol.parbignum > li:nth-child(89)::before{content:"(八十九)";}
+ol.parbignum > li:nth-child(90)::before{content:"(九十)";}
+ol.parbignum > li:nth-child(91)::before{content:"(九十一)";}
+ol.parbignum > li:nth-child(92)::before{content:"(九十二)";}
+ol.parbignum > li:nth-child(93)::before{content:"(九十三)";}
+ol.parbignum > li:nth-child(94)::before{content:"(九十四)";}
+ol.parbignum > li:nth-child(95)::before{content:"(九十五)";}
+ol.parbignum > li:nth-child(96)::before{content:"(九十六)";}
+ol.parbignum > li:nth-child(97)::before{content:"(九十七)";}
+ol.parbignum > li:nth-child(98)::before{content:"(九十八)";}
+ol.parbignum > li:nth-child(99)::before{content:"(九十九)";}
+ol.parbignum > li:nth-child(100)::before{content:"(一百)";}
+ol.bignum > li:nth-child(1)::before{content:"一、";}
+ol.bignum > li:nth-child(2)::before{content:"二、";}
+ol.bignum > li:nth-child(3)::before{content:"三、";}
+ol.bignum > li:nth-child(4)::before{content:"四、";}
+ol.bignum > li:nth-child(5)::before{content:"五、";}
+ol.bignum > li:nth-child(6)::before{content:"六、";}
+ol.bignum > li:nth-child(7)::before{content:"七、";}
+ol.bignum > li:nth-child(8)::before{content:"八、";}
+ol.bignum > li:nth-child(9)::before{content:"九、";}
+ol.bignum > li:nth-child(10)::before{content:"十、";}
+ol.bignum > li:nth-child(11)::before{content:"十一、";}
+ol.bignum > li:nth-child(12)::before{content:"十二、";}
+ol.bignum > li:nth-child(13)::before{content:"十三、";}
+ol.bignum > li:nth-child(14)::before{content:"十四、";}
+ol.bignum > li:nth-child(15)::before{content:"十五、";}
+ol.bignum > li:nth-child(16)::before{content:"十六、";}
+ol.bignum > li:nth-child(17)::before{content:"十七、";}
+ol.bignum > li:nth-child(18)::before{content:"十八、";}
+ol.bignum > li:nth-child(19)::before{content:"十九、";}
+ol.bignum > li:nth-child(20)::before{content:"二十、";}
+ol.bignum > li:nth-child(21)::before{content:"二十一、";}
+ol.bignum > li:nth-child(22)::before{content:"二十二、";}
+ol.bignum > li:nth-child(23)::before{content:"二十三、";}
+ol.bignum > li:nth-child(24)::before{content:"二十四、";}
+ol.bignum > li:nth-child(25)::before{content:"二十五、";}
+ol.bignum > li:nth-child(26)::before{content:"二十六、";}
+ol.bignum > li:nth-child(27)::before{content:"二十七、";}
+ol.bignum > li:nth-child(28)::before{content:"二十八、";}
+ol.bignum > li:nth-child(29)::before{content:"二十九、";}
+ol.bignum > li:nth-child(30)::before{content:"三十、";}
+ol.bignum > li:nth-child(31)::before{content:"三十一、";}
+ol.bignum > li:nth-child(32)::before{content:"三十二、";}
+ol.bignum > li:nth-child(33)::before{content:"三十三、";}
+ol.bignum > li:nth-child(34)::before{content:"三十四、";}
+ol.bignum > li:nth-child(35)::before{content:"三十五、";}
+ol.bignum > li:nth-child(36)::before{content:"三十六、";}
+ol.bignum > li:nth-child(37)::before{content:"三十七、";}
+ol.bignum > li:nth-child(38)::before{content:"三十八、";}
+ol.bignum > li:nth-child(39)::before{content:"三十九、";}
+ol.bignum > li:nth-child(40)::before{content:"四十、";}
+ol.bignum > li:nth-child(41)::before{content:"四十一、";}
+ol.bignum > li:nth-child(42)::before{content:"四十二、";}
+ol.bignum > li:nth-child(43)::before{content:"四十三、";}
+ol.bignum > li:nth-child(44)::before{content:"四十四、";}
+ol.bignum > li:nth-child(45)::before{content:"四十五、";}
+ol.bignum > li:nth-child(46)::before{content:"四十六、";}
+ol.bignum > li:nth-child(47)::before{content:"四十七、";}
+ol.bignum > li:nth-child(48)::before{content:"四十八、";}
+ol.bignum > li:nth-child(49)::before{content:"四十九、";}
+ol.bignum > li:nth-child(50)::before{content:"五十、";}
+ol.bignum > li:nth-child(51)::before{content:"五十一、";}
+ol.bignum > li:nth-child(52)::before{content:"五十二、";}
+ol.bignum > li:nth-child(53)::before{content:"五十三、";}
+ol.bignum > li:nth-child(54)::before{content:"五十四、";}
+ol.bignum > li:nth-child(55)::before{content:"五十五、";}
+ol.bignum > li:nth-child(56)::before{content:"五十六、";}
+ol.bignum > li:nth-child(57)::before{content:"五十七、";}
+ol.bignum > li:nth-child(58)::before{content:"五十八、";}
+ol.bignum > li:nth-child(59)::before{content:"五十九、";}
+ol.bignum > li:nth-child(60)::before{content:"六十、";}
+ol.bignum > li:nth-child(61)::before{content:"六十一、";}
+ol.bignum > li:nth-child(62)::before{content:"六十二、";}
+ol.bignum > li:nth-child(63)::before{content:"六十三、";}
+ol.bignum > li:nth-child(64)::before{content:"六十四、";}
+ol.bignum > li:nth-child(65)::before{content:"六十五、";}
+ol.bignum > li:nth-child(66)::before{content:"六十六、";}
+ol.bignum > li:nth-child(67)::before{content:"六十七、";}
+ol.bignum > li:nth-child(68)::before{content:"六十八、";}
+ol.bignum > li:nth-child(69)::before{content:"六十九、";}
+ol.bignum > li:nth-child(70)::before{content:"七十、";}
+ol.bignum > li:nth-child(71)::before{content:"七十一、";}
+ol.bignum > li:nth-child(72)::before{content:"七十二、";}
+ol.bignum > li:nth-child(73)::before{content:"七十三、";}
+ol.bignum > li:nth-child(74)::before{content:"七十四、";}
+ol.bignum > li:nth-child(75)::before{content:"七十五、";}
+ol.bignum > li:nth-child(76)::before{content:"七十六、";}
+ol.bignum > li:nth-child(77)::before{content:"七十七、";}
+ol.bignum > li:nth-child(78)::before{content:"七十八、";}
+ol.bignum > li:nth-child(79)::before{content:"七十九、";}
+ol.bignum > li:nth-child(80)::before{content:"八十、";}
+ol.bignum > li:nth-child(81)::before{content:"八十一、";}
+ol.bignum > li:nth-child(82)::before{content:"八十二、";}
+ol.bignum > li:nth-child(83)::before{content:"八十三、";}
+ol.bignum > li:nth-child(84)::before{content:"八十四、";}
+ol.bignum > li:nth-child(85)::before{content:"八十五、";}
+ol.bignum > li:nth-child(86)::before{content:"八十六、";}
+ol.bignum > li:nth-child(87)::before{content:"八十七、";}
+ol.bignum > li:nth-child(88)::before{content:"八十八、";}
+ol.bignum > li:nth-child(89)::before{content:"八十九、";}
+ol.bignum > li:nth-child(90)::before{content:"九十、";}
+ol.bignum > li:nth-child(91)::before{content:"九十一、";}
+ol.bignum > li:nth-child(92)::before{content:"九十二、";}
+ol.bignum > li:nth-child(93)::before{content:"九十三、";}
+ol.bignum > li:nth-child(94)::before{content:"九十四、";}
+ol.bignum > li:nth-child(95)::before{content:"九十五、";}
+ol.bignum > li:nth-child(96)::before{content:"九十六、";}
+ol.bignum > li:nth-child(97)::before{content:"九十七、";}
+ol.bignum > li:nth-child(98)::before{content:"九十八、";}
+ol.bignum > li:nth-child(99)::before{content:"九十九、";}
+ol.bignum > li:nth-child(100)::before{content:"一百、";}
+
+.fancybox-inner > div {
+	height: auto !important;
+	max-width: 100%;
+}
+
+.fancybox-inner img {
+	height: auto !important;
+	max-width: 100%;
+}
