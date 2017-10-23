@@ -1,0 +1,13 @@
+ERB---------------
+list-text share
+
+
+SASS---------------
+list-text share
+
+
+名稱--------------
+資料管理 detaManage
+資訊發布 detaPublish
+互動交流 interaction
+網站管理 webManage
