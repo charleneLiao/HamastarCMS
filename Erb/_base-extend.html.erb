@@ -1,0 +1,11 @@
+<div class="group base-extend" id="base-extend" data-index="<%= index %>" data-type="<%= $row %>" data-child="5"><div class="in">
+	<div class="ct"><div class="in">
+		<!-- logo 主要標誌 -->
+			<%= render partial: "/erb/simple-text_major-logo", locals: set({ index: 1, header_text: "標誌" }) %>
+		<!-- logo 結束 -->
+		<!-- 搜尋 -->
+		<%= render partial: "/erb/area-customize-form_search", locals: set({ index: 1, header_text: "搜尋" }) %>
+		<!-- 帳號管理 -->
+		<%= render partial: "/erb/list-text_link_account", locals: set({ index: 1, func_set: "{'majorNavHorizontal':{}, 'toggleBtn':{'cookie':'true'},'bindNode':'h4 a'}" , header_text: "帳號管理"}) %>
+	</div></div>
+</div></div>
