@@ -1,32 +1,23 @@
 //框架
-
 //模組區塊================================================================
-
 .base-module-area {
-	@extend %area-module;
+    @extend %area-module;
+    border: 1px #ccc solid;
+    margin: 15px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 17px 0px rgba(20%, 20%, 40%, 0.5);
 
-	> .in {
 
-		> .hd {
+>.in {
+    >.hd {
+        >.in {}
+        h3 {}
+        span {}
+    }
+    >.ct {
+        >.in {}
+    }
+}
 
-			> .in {
 
-			}
-
-			h3 {
-
-			}
-
-			span {
-
-			}
-		}
-
-		> .ct {
-
-			> .in {
-
-			}
-		}
-	}
 }

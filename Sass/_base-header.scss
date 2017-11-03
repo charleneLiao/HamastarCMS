@@ -2,10 +2,10 @@
 //頁首資訊================================================================
 .base-header {
     width: 250px;
-    height: 100%;
+    height: 100vh;
     float: left;
     z-index: 2;
-    position: fixed;
+    // position: fixed;
     background: $minor-color;
     @include media('mobile') {
         display: none;

@@ -1,0 +1,14 @@
+<div class="group base-module-area" id="base-module-area" data-index="<%= index %>" data-type="<%= $row %>" data-child="3"><div class="in">
+	<div class="ct"><div class="in">
+
+	<!-- 首頁內容 開始 -->
+    <%= yield %>
+  	<!-- 首頁內容 結束 -->
+    <%= render partial: "/erb/simple-text_heading" , locals: set({ index: 1 })%>
+    <%= render partial: "/erb/simple-text_btn" , locals: set({ index: 1 , class_set: 'but_edit' })%>
+    <%= render partial: "/erb/simple-text_btn" , locals: set({ index: 1 })%>
+    <%= render partial: "/erb/list-text_breadcrumb" , locals: set({ index: 1 })%>
+    <%= render partial: "/erb/area-form_search" , locals: set({ index: 1 })%>
+    <%= render partial: "/erb/list-text_platfrom" , locals: set({ index: 1 })%>
+	</div></div>
+</div></div>

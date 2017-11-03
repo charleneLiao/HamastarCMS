@@ -1,0 +1,49 @@
+<div class="list-text platfrom_content" data-index="1" data-type="0">
+	<div class="in"> 
+		<div class="ct">
+			<div class="in">
+        <table>
+          <tr>
+            <th class="function">功能</th>
+            <th>類型</th>
+            <th class="pag_name">名稱</th>
+            <th>排序</th>
+            <th>點擊數</th>
+            <th>狀態</th>
+            <th>修改人</th>
+            <th>修改時間</th>
+          </tr>
+          <% (1..8).each do |n| %>
+          <tr class="tableClass_tr1">
+          　<td class="function"> 
+              <input type="submit"  title="編輯" value="編輯"class="input_edit"></input>
+              <input type="submit" title="刪除" class="input_delete"></input>  
+              <input type="submit"  title="其他" class="input_other"></input> 
+            </td>
+          　<td>
+              <span><img class="img_system"></span>
+            </td>
+            <td class="pag_name">
+              <span><a href="#" title="名稱"><%= zh_lorem_words rand(10)%></a></span>
+            </td>
+            <td>
+              <select>
+                <% (1..10).each do |n| %>
+                  <option value="1"><%= n %></option>
+                  <% n %>
+                <% end %>
+              </select>
+               
+            </td>
+            <td><span class="onclick_cost"><%= rand(300) %></span></td>
+            <td><span class="page_mode">狀態</span></td>
+            <td><span class="user_name"><%= zh_lorem_name %></span></td>
+            <td><span class="edit_date"><%= lorem_date %></span></td>
+            <% n %>
+          </tr>
+          <% end %>
+        </table>
+			</div>
+		</div>
+	</div>
+</div>

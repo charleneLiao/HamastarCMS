@@ -33,7 +33,9 @@
 }
 
 /* line 562, ../sass/_base-function.scss */
-[data-type="1"][data-child] > .bg-drop-layout > .in > .ct > .in:after, [data-type="1"][data-child] > .in > .ct > .in:after, .base-page-area > .in:after, .base-header .info > .bg-drop-layout > .in > .ct > .in:after, .base-header .info > .in > .ct > .in:after, .base-footer .info > .bg-drop-layout > .in > .ct > .in:after, .base-footer .info > .in > .ct > .in:after, .group > .bg-drop-layout > .in > .ct > .in:after, .group > .in > .ct > .in:after, .group-list > .bg-drop-layout > .in > .ct > .in > ul:after, .group-list > .in > .ct > .in > ul:after, .list-text .ct ul:after, .list-pic .ct ul:after, .cp.interduce:after, .cp.multi-pic:after, .cp.around-pic:after, .cp.table td:after, .cp.half-area:after, .cp.one_third-area:after, .area-customize.calendar .ct .heading:after, .list-text.anchor .ct ul:after, .list-text.step .ct ul:after {
+[data-type="1"][data-child] > .bg-drop-layout > .in > .ct > .in:after, [data-type="1"][data-child] > .in > .ct > .in:after, .base-page-area > .in:after, .base-header .info > .bg-drop-layout > .in > .ct > .in:after,
+.base-header .info > .in > .ct > .in:after, .base-footer .info > .bg-drop-layout > .in > .ct > .in:after,
+.base-footer .info > .in > .ct > .in:after, .group > .bg-drop-layout > .in > .ct > .in:after, .group > .in > .ct > .in:after, .group-list > .bg-drop-layout > .in > .ct > .in > ul:after, .group-list > .in > .ct > .in > ul:after, .list-text .ct ul:after, .list-pic .ct ul:after, .cp.interduce:after, .cp.multi-pic:after, .cp.around-pic:after, .cp.table td:after, .cp.half-area:after, .cp.one_third-area:after, .area-customize.calendar .ct .heading:after, .list-text.anchor .ct ul:after, .list-text.step .ct ul:after {
   content: "​";
   display: block;
   height: 0;
@@ -55,7 +57,9 @@
 }
 
 /* line 658, ../sass/_base-function.scss */
-.base-footer > .in > .hd > .in, .base-header .info > .bg-drop-layout > .in, .base-header .info > .in, .base-footer .info > .bg-drop-layout > .in, .base-footer .info > .in, .base-header .group-list.nav > .bg-drop-layout > .in > .ct, .base-header .group-list.nav > .in > .ct, .base-footer .group-list.nav > .bg-drop-layout > .in, .base-footer .group-list.nav > .in, .base-extend .simple-text.btn > .bg-drop-layout > .in,
+.base-footer > .in > .hd > .in, .base-header .info > .bg-drop-layout > .in,
+.base-header .info > .in, .base-footer .info > .bg-drop-layout > .in,
+.base-footer .info > .in, .base-header .group-list.nav > .bg-drop-layout > .in > .ct, .base-header .group-list.nav > .in > .ct, .base-footer .group-list.nav > .bg-drop-layout > .in, .base-footer .group-list.nav > .in, .base-extend .simple-text.btn > .bg-drop-layout > .in,
 .base-extend .simple-text.btn > .in, .group.center > .bg-drop-layout > .in > .ct, .group.center > .in > .ct {
   margin: 0 auto;
   max-width: 1000px;
@@ -371,2398 +375,1197 @@
   background-repeat: no-repeat;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-b-bottom {
   background-position: 0 0;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-b-left {
   background-position: 0 -16px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-b-right {
   background-position: 0 -32px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-b-top {
   background-position: 0 -48px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-double-b-left {
   background-position: 0 -64px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-double-b-right {
   background-position: 0 -88px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-gr-left {
   background-position: 0 -112px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-gr-left05 {
   background-position: 0 -162px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-gr-right {
   background-position: 0 -192px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-gr-right05 {
   background-position: 0 -242px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-bottom {
   background-position: 0 -272px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-left {
   background-position: 0 -288px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-left02 {
   background-position: 0 -304px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-left03 {
   background-position: 0 -316px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-left04 {
   background-position: 0 -328px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-left05 {
   background-position: 0 -366px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-right {
   background-position: 0 -396px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-right02 {
   background-position: 0 -412px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-right03 {
   background-position: 0 -424px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-right04 {
   background-position: 0 -436px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-right05 {
   background-position: 0 -474px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-away-w-top {
   background-position: 0 -504px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-block {
   background-position: 0 -520px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-calendar {
   background-position: 0 -536px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-clock {
   background-position: 0 -558px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-ctrl-b-close {
   background-position: 0 -572px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-eyes {
   background-position: 0 -588px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-ai, .base-section a.ai:after, .list-text.content-file .ct li.ai a:before {
   background-position: 0 -604px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-avi, .base-section a.avi:after, .list-text.content-file .ct li.avi a:before {
   background-position: 0 -620px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-bmp, .base-section a.bmp:after, .list-text.content-file .ct li.bmp a:before {
   background-position: 0 -636px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-cdr, .base-section a.cdr:after, .list-text.content-file .ct li.cdr a:before {
   background-position: 0 -652px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-css, .base-section a.css:after, .list-text.content-file .ct li.css a:before {
   background-position: 0 -668px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-csv, .base-section a.csv:after, .list-text.content-file .ct li.csv a:before {
   background-position: 0 -684px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-dmg, .base-section a.dmg:after, .list-text.content-file .ct li.dmg a:before {
   background-position: 0 -700px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-doc, .base-section a.doc:after, .list-text.content-file .ct li.doc a:before {
   background-position: 0 -716px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-docx, .base-section a.docx:after, .list-text.content-file .ct li.docx a:before {
   background-position: 0 -732px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-exe, .base-section a.exe:after, .list-text.content-file .ct li.exe a:before {
   background-position: 0 -748px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-gif, .base-section a.gif:after, .list-text.content-file .ct li.gif a:before {
   background-position: 0 -764px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-html, .base-section a.html:after, .list-text.content-file .ct li.html a:before {
   background-position: 0 -780px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-ico, .base-section a.ico:after, .list-text.content-file .ct li.ico a:before {
   background-position: 0 -796px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-jpeg, .base-section a.jpeg:after, .list-text.content-file .ct li.jpeg a:before {
   background-position: 0 -812px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-jpg, .base-section a.jpg:after, .list-text.content-file .ct li.jpg a:before {
   background-position: 0 -828px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-js, .base-section a.js:after, .list-text.content-file .ct li.js a:before {
   background-position: 0 -844px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-json {
   background-position: 0 -860px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-link, .base-section a.link:after, .list-text.content-file .ct li.link a:before {
   background-position: 0 -876px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-md, .base-section a.md:after, .list-text.content-file .ct li.md a:before {
   background-position: 0 -892px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-mov, .base-section a.mov:after, .list-text.content-file .ct li.mov a:before {
   background-position: 0 -908px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-mp3, .base-section a.mp3:after, .list-text.content-file .ct li.mp3 a:before {
   background-position: 0 -924px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-mp4, .base-section a.mp4:after, .list-text.content-file .ct li.mp4 a:before {
   background-position: 0 -940px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-odf, .base-section a.odf:after, .list-text.content-file .ct li.odf a:before {
   background-position: 0 -956px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-odp, .base-section a.odp:after, .list-text.content-file .ct li.odp a:before {
   background-position: 0 -972px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-ods, .base-section a.ods:after, .list-text.content-file .ct li.ods a:before {
   background-position: 0 -988px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-odt, .base-section a.odt:after, .list-text.content-file .ct li.odt a:before {
   background-position: 0 -1004px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-ogg, .base-section a.ogg:after, .list-text.content-file .ct li.ogg a:before {
   background-position: 0 -1020px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-ogv, .base-section a.ogv:after, .list-text.content-file .ct li.ogv a:before {
   background-position: 0 -1036px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-other, .base-section a.other:after, .list-text.content-file .ct li.other a:before {
   background-position: 0 -1052px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-pdf, .base-section a.pdf:after, .list-text.content-file .ct li.pdf a:before {
   background-position: 0 -1068px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-png, .base-section a.png:after, .list-text.content-file .ct li.png a:before {
   background-position: 0 -1084px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-ppt, .base-section a.ppt:after, .list-text.content-file .ct li.ppt a:before {
   background-position: 0 -1100px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-pptx, .base-section a.pptx:after, .list-text.content-file .ct li.pptx a:before {
   background-position: 0 -1116px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-psd, .base-section a.psd:after, .list-text.content-file .ct li.psd a:before {
   background-position: 0 -1132px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-rar, .base-section a.rar:after, .list-text.content-file .ct li.rar a:before {
   background-position: 0 -1148px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-rss, .base-section a.rss:after, .list-text.content-file .ct li.rss a:before {
   background-position: 0 -1164px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-sass, .base-section a.sass:after, .list-text.content-file .ct li.sass a:before {
   background-position: 0 -1180px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-svg, .base-section a.svg:after, .list-text.content-file .ct li.svg a:before {
   background-position: 0 -1196px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-swf, .base-section a.swf:after, .list-text.content-file .ct li.swf a:before {
   background-position: 0 -1212px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-tar, .base-section a.tar:after, .list-text.content-file .ct li.tar a:before {
   background-position: 0 -1228px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-tif, .base-section a.tif:after, .list-text.content-file .ct li.tif a:before {
   background-position: 0 -1244px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-txt, .base-section a.txt:after, .list-text.content-file .ct li.txt a:before {
   background-position: 0 -1260px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-wav, .base-section a.wav:after, .list-text.content-file .ct li.wav a:before {
   background-position: 0 -1276px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-webm, .base-section a.webm:after, .list-text.content-file .ct li.webm a:before {
   background-position: 0 -1292px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-xls, .base-section a.xls:after, .list-text.content-file .ct li.xls a:before {
   background-position: 0 -1308px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-xlsx, .base-section a.xlsx:after, .list-text.content-file .ct li.xlsx a:before {
   background-position: 0 -1324px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-xml, .base-section a.xml:after, .list-text.content-file .ct li.xml a:before {
   background-position: 0 -1340px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-file-type-zip, .base-section a.zip:after, .list-text.content-file .ct li.zip a:before {
   background-position: 0 -1356px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-font-large {
   background-position: 0 -1372px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-font-medium {
   background-position: 0 -1398px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-font-smail {
   background-position: 0 -1424px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon-mobile_btn_close {
   background-position: 0 -1450px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon-mobile_btn_menu {
   background-position: 0 -1490px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon-root {
   background-position: 0 -1530px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon-w-img {
   background-position: 0 -1550px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon-w-search {
   background-position: 0 -1576px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon-w-video {
   background-position: 0 -1592px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon_answer-checkbox-checked {
   background-position: 0 -1618px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon_answer-checkbox {
   background-position: 0 -1654px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon_answer-radio-checked {
   background-position: 0 -1690px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon_answer-radio {
   background-position: 0 -1726px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon_answer-right {
   background-position: 0 -1762px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon_answer-select-right-s {
   background-position: 0 -1794px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon_answer-select-right {
   background-position: 0 -1806px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-icon_answer-wrong {
   background-position: 0 -1834px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-info {
   background-position: 0 -1866px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-list {
   background-position: 0 -1882px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-opn-data-csv {
   background-position: 0 -1898px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-opn-data-json {
   background-position: 0 -1922px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-opn-data-rss {
   background-position: 0 -1946px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-opn-data-xml {
   background-position: 0 -1970px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-search {
   background-position: 0 -1994px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-share-email {
   background-position: 0 -2024px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-share-facebook {
   background-position: 0 -2060px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-share-google {
   background-position: 0 -2096px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-share-line {
   background-position: 0 -2132px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-share-plurk {
   background-position: 0 -2168px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-share-twitter {
   background-position: 0 -2204px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-share {
   background-position: 0 -2240px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-user-tool-bopomofo {
   background-position: 0 -2264px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-user-tool-metadata {
   background-position: 0 -2288px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-user-tool-print {
   background-position: 0 -2312px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-1 {
   background-position: 0 -2336px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-10 {
   background-position: 0 -2426px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-11 {
   background-position: 0 -2516px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-12 {
   background-position: 0 -2606px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-13 {
   background-position: 0 -2696px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-14 {
   background-position: 0 -2786px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-15 {
   background-position: 0 -2876px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-16 {
   background-position: 0 -2966px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-17 {
   background-position: 0 -3056px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-18 {
   background-position: 0 -3146px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-19 {
   background-position: 0 -3236px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-2 {
   background-position: 0 -3326px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-20 {
   background-position: 0 -3416px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-21 {
   background-position: 0 -3506px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-22 {
   background-position: 0 -3596px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-23 {
   background-position: 0 -3686px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-24 {
   background-position: 0 -3776px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-25 {
   background-position: 0 -3866px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-26 {
   background-position: 0 -3956px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-27 {
   background-position: 0 -4046px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-28 {
   background-position: 0 -4136px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-29 {
   background-position: 0 -4226px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-3 {
   background-position: 0 -4316px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-30 {
   background-position: 0 -4406px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-31 {
   background-position: 0 -4496px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-32 {
   background-position: 0 -4586px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-33 {
   background-position: 0 -4676px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-34 {
   background-position: 0 -4766px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-35 {
   background-position: 0 -4856px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-36 {
   background-position: 0 -4946px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-37 {
   background-position: 0 -5036px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-38 {
   background-position: 0 -5126px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-39 {
   background-position: 0 -5216px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-4 {
   background-position: 0 -5306px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-40 {
   background-position: 0 -5396px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-41 {
   background-position: 0 -5486px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-42 {
   background-position: 0 -5576px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-43 {
   background-position: 0 -5666px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-44 {
   background-position: 0 -5756px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-45 {
   background-position: 0 -5846px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-46 {
   background-position: 0 -5936px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-47 {
   background-position: 0 -6026px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-48 {
   background-position: 0 -6116px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-49 {
   background-position: 0 -6206px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-5 {
   background-position: 0 -6296px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-50 {
   background-position: 0 -6386px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-51 {
   background-position: 0 -6476px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-52 {
   background-position: 0 -6566px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-53 {
   background-position: 0 -6656px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-54 {
   background-position: 0 -6746px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-55 {
   background-position: 0 -6836px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-56 {
   background-position: 0 -6926px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-57 {
   background-position: 0 -7016px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-58 {
   background-position: 0 -7106px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-59 {
   background-position: 0 -7196px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-6 {
   background-position: 0 -7286px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-60 {
   background-position: 0 -7376px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-61 {
   background-position: 0 -7466px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-62 {
   background-position: 0 -7556px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-63 {
   background-position: 0 -7646px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-64 {
   background-position: 0 -7736px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-65 {
   background-position: 0 -7826px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-7 {
   background-position: 0 -7916px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-8 {
   background-position: 0 -8006px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type-9 {
   background-position: 0 -8096px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-1 {
   background-position: 0 -8186px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-10 {
   background-position: 0 -8231px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-11 {
   background-position: 0 -8276px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-12 {
   background-position: 0 -8321px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-13 {
   background-position: 0 -8366px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-14 {
   background-position: 0 -8411px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-15 {
   background-position: 0 -8456px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-16 {
   background-position: 0 -8501px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-17 {
   background-position: 0 -8546px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-18 {
   background-position: 0 -8591px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-19 {
   background-position: 0 -8636px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-2 {
   background-position: 0 -8681px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-20 {
   background-position: 0 -8726px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-21 {
   background-position: 0 -8771px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-22 {
   background-position: 0 -8816px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-23 {
   background-position: 0 -8861px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-24 {
   background-position: 0 -8906px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-25 {
   background-position: 0 -8951px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-26 {
   background-position: 0 -8996px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-27 {
   background-position: 0 -9041px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-28 {
   background-position: 0 -9086px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-29 {
   background-position: 0 -9131px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-3 {
   background-position: 0 -9176px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-30 {
   background-position: 0 -9221px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-31 {
   background-position: 0 -9266px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-32 {
   background-position: 0 -9311px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-33 {
   background-position: 0 -9356px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-34 {
   background-position: 0 -9401px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-35 {
   background-position: 0 -9446px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-36 {
   background-position: 0 -9491px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-37 {
   background-position: 0 -9536px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-38 {
   background-position: 0 -9581px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-39 {
   background-position: 0 -9626px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-4 {
   background-position: 0 -9671px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-40 {
   background-position: 0 -9716px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-41 {
   background-position: 0 -9761px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-42 {
   background-position: 0 -9806px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-43 {
   background-position: 0 -9851px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-44 {
   background-position: 0 -9896px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-45 {
   background-position: 0 -9941px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-46 {
   background-position: 0 -9986px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-47 {
   background-position: 0 -10031px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-48 {
   background-position: 0 -10076px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-49 {
   background-position: 0 -10121px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-5 {
   background-position: 0 -10166px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-50 {
   background-position: 0 -10211px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-51 {
   background-position: 0 -10256px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-52 {
   background-position: 0 -10301px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-53 {
   background-position: 0 -10346px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-54 {
   background-position: 0 -10391px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-55 {
   background-position: 0 -10436px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-56 {
   background-position: 0 -10481px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-57 {
   background-position: 0 -10526px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-58 {
   background-position: 0 -10571px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-59 {
   background-position: 0 -10616px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-6 {
   background-position: 0 -10661px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-60 {
   background-position: 0 -10706px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-61 {
   background-position: 0 -10751px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-62 {
   background-position: 0 -10796px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-63 {
   background-position: 0 -10841px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-64 {
   background-position: 0 -10886px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-65 {
   background-position: 0 -10931px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-7 {
   background-position: 0 -10976px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-8 {
   background-position: 0 -11021px;
 }
 
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-9 {
-  background-position: 0 -11066px;
-}
-
-/* line 1952, icon-pic/*.png */
-.icon-pic-sprite, .icon-pic-away-b-bottom, .icon-pic-away-b-left, .icon-pic-away-b-right, .icon-pic-away-b-top, .icon-pic-away-double-b-left, .icon-pic-away-double-b-right, .icon-pic-away-gr-left, .icon-pic-away-gr-left05, .icon-pic-away-gr-right, .icon-pic-away-gr-right05, .icon-pic-away-w-bottom, .icon-pic-away-w-left, .icon-pic-away-w-left02, .icon-pic-away-w-left03, .icon-pic-away-w-left04, .icon-pic-away-w-left05, .icon-pic-away-w-right, .icon-pic-away-w-right02, .icon-pic-away-w-right03, .icon-pic-away-w-right04, .icon-pic-away-w-right05, .icon-pic-away-w-top, .icon-pic-block, .icon-pic-calendar, .icon-pic-clock, .icon-pic-ctrl-b-close, .icon-pic-eyes, .icon-pic-file-type-ai, .base-section a.ai:after, .list-text.content-file .ct li.ai a:before, .icon-pic-file-type-avi, .base-section a.avi:after, .list-text.content-file .ct li.avi a:before, .icon-pic-file-type-bmp, .base-section a.bmp:after, .list-text.content-file .ct li.bmp a:before, .icon-pic-file-type-cdr, .base-section a.cdr:after, .list-text.content-file .ct li.cdr a:before, .icon-pic-file-type-css, .base-section a.css:after, .list-text.content-file .ct li.css a:before, .icon-pic-file-type-csv, .base-section a.csv:after, .list-text.content-file .ct li.csv a:before, .icon-pic-file-type-dmg, .base-section a.dmg:after, .list-text.content-file .ct li.dmg a:before, .icon-pic-file-type-doc, .base-section a.doc:after, .list-text.content-file .ct li.doc a:before, .icon-pic-file-type-docx, .base-section a.docx:after, .list-text.content-file .ct li.docx a:before, .icon-pic-file-type-exe, .base-section a.exe:after, .list-text.content-file .ct li.exe a:before, .icon-pic-file-type-gif, .base-section a.gif:after, .list-text.content-file .ct li.gif a:before, .icon-pic-file-type-html, .base-section a.html:after, .list-text.content-file .ct li.html a:before, .icon-pic-file-type-ico, .base-section a.ico:after, .list-text.content-file .ct li.ico a:before, .icon-pic-file-type-jpeg, .base-section a.jpeg:after, .list-text.content-file .ct li.jpeg a:before, .icon-pic-file-type-jpg, .base-section a.jpg:after, .list-text.content-file .ct li.jpg a:before, .icon-pic-file-type-js, .base-section a.js:after, .list-text.content-file .ct li.js a:before, .icon-pic-file-type-json, .icon-pic-file-type-link, .base-section a.link:after, .list-text.content-file .ct li.link a:before, .icon-pic-file-type-md, .base-section a.md:after, .list-text.content-file .ct li.md a:before, .icon-pic-file-type-mov, .base-section a.mov:after, .list-text.content-file .ct li.mov a:before, .icon-pic-file-type-mp3, .base-section a.mp3:after, .list-text.content-file .ct li.mp3 a:before, .icon-pic-file-type-mp4, .base-section a.mp4:after, .list-text.content-file .ct li.mp4 a:before, .icon-pic-file-type-odf, .base-section a.odf:after, .list-text.content-file .ct li.odf a:before, .icon-pic-file-type-odp, .base-section a.odp:after, .list-text.content-file .ct li.odp a:before, .icon-pic-file-type-ods, .base-section a.ods:after, .list-text.content-file .ct li.ods a:before, .icon-pic-file-type-odt, .base-section a.odt:after, .list-text.content-file .ct li.odt a:before, .icon-pic-file-type-ogg, .base-section a.ogg:after, .list-text.content-file .ct li.ogg a:before, .icon-pic-file-type-ogv, .base-section a.ogv:after, .list-text.content-file .ct li.ogv a:before, .icon-pic-file-type-other, .base-section a.other:after, .list-text.content-file .ct li.other a:before, .icon-pic-file-type-pdf, .base-section a.pdf:after, .list-text.content-file .ct li.pdf a:before, .icon-pic-file-type-png, .base-section a.png:after, .list-text.content-file .ct li.png a:before, .icon-pic-file-type-ppt, .base-section a.ppt:after, .list-text.content-file .ct li.ppt a:before, .icon-pic-file-type-pptx, .base-section a.pptx:after, .list-text.content-file .ct li.pptx a:before, .icon-pic-file-type-psd, .base-section a.psd:after, .list-text.content-file .ct li.psd a:before, .icon-pic-file-type-rar, .base-section a.rar:after, .list-text.content-file .ct li.rar a:before, .icon-pic-file-type-rss, .base-section a.rss:after, .list-text.content-file .ct li.rss a:before, .icon-pic-file-type-sass, .base-section a.sass:after, .list-text.content-file .ct li.sass a:before, .icon-pic-file-type-svg, .base-section a.svg:after, .list-text.content-file .ct li.svg a:before, .icon-pic-file-type-swf, .base-section a.swf:after, .list-text.content-file .ct li.swf a:before, .icon-pic-file-type-tar, .base-section a.tar:after, .list-text.content-file .ct li.tar a:before, .icon-pic-file-type-tif, .base-section a.tif:after, .list-text.content-file .ct li.tif a:before, .icon-pic-file-type-txt, .base-section a.txt:after, .list-text.content-file .ct li.txt a:before, .icon-pic-file-type-wav, .base-section a.wav:after, .list-text.content-file .ct li.wav a:before, .icon-pic-file-type-webm, .base-section a.webm:after, .list-text.content-file .ct li.webm a:before, .icon-pic-file-type-xls, .base-section a.xls:after, .list-text.content-file .ct li.xls a:before, .icon-pic-file-type-xlsx, .base-section a.xlsx:after, .list-text.content-file .ct li.xlsx a:before, .icon-pic-file-type-xml, .base-section a.xml:after, .list-text.content-file .ct li.xml a:before, .icon-pic-file-type-zip, .base-section a.zip:after, .list-text.content-file .ct li.zip a:before, .icon-pic-font-large, .icon-pic-font-medium, .icon-pic-font-smail, .icon-pic-icon-mobile_btn_close, .icon-pic-icon-mobile_btn_menu, .icon-pic-icon-root, .icon-pic-icon-w-img, .icon-pic-icon-w-search, .icon-pic-icon-w-video, .icon-pic-icon_answer-checkbox-checked, .icon-pic-icon_answer-checkbox, .icon-pic-icon_answer-radio-checked, .icon-pic-icon_answer-radio, .icon-pic-icon_answer-right, .icon-pic-icon_answer-select-right-s, .icon-pic-icon_answer-select-right, .icon-pic-icon_answer-wrong, .icon-pic-info, .icon-pic-list, .icon-pic-opn-data-csv, .icon-pic-opn-data-json, .icon-pic-opn-data-rss, .icon-pic-opn-data-xml, .icon-pic-search, .icon-pic-share-email, .icon-pic-share-facebook, .icon-pic-share-google, .icon-pic-share-line, .icon-pic-share-plurk, .icon-pic-share-twitter, .icon-pic-share, .icon-pic-user-tool-bopomofo, .icon-pic-user-tool-metadata, .icon-pic-user-tool-print, .icon-pic-weather-type-1, .icon-pic-weather-type-10, .icon-pic-weather-type-11, .icon-pic-weather-type-12, .icon-pic-weather-type-13, .icon-pic-weather-type-14, .icon-pic-weather-type-15, .icon-pic-weather-type-16, .icon-pic-weather-type-17, .icon-pic-weather-type-18, .icon-pic-weather-type-19, .icon-pic-weather-type-2, .icon-pic-weather-type-20, .icon-pic-weather-type-21, .icon-pic-weather-type-22, .icon-pic-weather-type-23, .icon-pic-weather-type-24, .icon-pic-weather-type-25, .icon-pic-weather-type-26, .icon-pic-weather-type-27, .icon-pic-weather-type-28, .icon-pic-weather-type-29, .icon-pic-weather-type-3, .icon-pic-weather-type-30, .icon-pic-weather-type-31, .icon-pic-weather-type-32, .icon-pic-weather-type-33, .icon-pic-weather-type-34, .icon-pic-weather-type-35, .icon-pic-weather-type-36, .icon-pic-weather-type-37, .icon-pic-weather-type-38, .icon-pic-weather-type-39, .icon-pic-weather-type-4, .icon-pic-weather-type-40, .icon-pic-weather-type-41, .icon-pic-weather-type-42, .icon-pic-weather-type-43, .icon-pic-weather-type-44, .icon-pic-weather-type-45, .icon-pic-weather-type-46, .icon-pic-weather-type-47, .icon-pic-weather-type-48, .icon-pic-weather-type-49, .icon-pic-weather-type-5, .icon-pic-weather-type-50, .icon-pic-weather-type-51, .icon-pic-weather-type-52, .icon-pic-weather-type-53, .icon-pic-weather-type-54, .icon-pic-weather-type-55, .icon-pic-weather-type-56, .icon-pic-weather-type-57, .icon-pic-weather-type-58, .icon-pic-weather-type-59, .icon-pic-weather-type-6, .icon-pic-weather-type-60, .icon-pic-weather-type-61, .icon-pic-weather-type-62, .icon-pic-weather-type-63, .icon-pic-weather-type-64, .icon-pic-weather-type-65, .icon-pic-weather-type-7, .icon-pic-weather-type-8, .icon-pic-weather-type-9, .icon-pic-weather-type2-1, .icon-pic-weather-type2-10, .icon-pic-weather-type2-11, .icon-pic-weather-type2-12, .icon-pic-weather-type2-13, .icon-pic-weather-type2-14, .icon-pic-weather-type2-15, .icon-pic-weather-type2-16, .icon-pic-weather-type2-17, .icon-pic-weather-type2-18, .icon-pic-weather-type2-19, .icon-pic-weather-type2-2, .icon-pic-weather-type2-20, .icon-pic-weather-type2-21, .icon-pic-weather-type2-22, .icon-pic-weather-type2-23, .icon-pic-weather-type2-24, .icon-pic-weather-type2-25, .icon-pic-weather-type2-26, .icon-pic-weather-type2-27, .icon-pic-weather-type2-28, .icon-pic-weather-type2-29, .icon-pic-weather-type2-3, .icon-pic-weather-type2-30, .icon-pic-weather-type2-31, .icon-pic-weather-type2-32, .icon-pic-weather-type2-33, .icon-pic-weather-type2-34, .icon-pic-weather-type2-35, .icon-pic-weather-type2-36, .icon-pic-weather-type2-37, .icon-pic-weather-type2-38, .icon-pic-weather-type2-39, .icon-pic-weather-type2-4, .icon-pic-weather-type2-40, .icon-pic-weather-type2-41, .icon-pic-weather-type2-42, .icon-pic-weather-type2-43, .icon-pic-weather-type2-44, .icon-pic-weather-type2-45, .icon-pic-weather-type2-46, .icon-pic-weather-type2-47, .icon-pic-weather-type2-48, .icon-pic-weather-type2-49, .icon-pic-weather-type2-5, .icon-pic-weather-type2-50, .icon-pic-weather-type2-51, .icon-pic-weather-type2-52, .icon-pic-weather-type2-53, .icon-pic-weather-type2-54, .icon-pic-weather-type2-55, .icon-pic-weather-type2-56, .icon-pic-weather-type2-57, .icon-pic-weather-type2-58, .icon-pic-weather-type2-59, .icon-pic-weather-type2-6, .icon-pic-weather-type2-60, .icon-pic-weather-type2-61, .icon-pic-weather-type2-62, .icon-pic-weather-type2-63, .icon-pic-weather-type2-64, .icon-pic-weather-type2-65, .icon-pic-weather-type2-7, .icon-pic-weather-type2-8, .icon-pic-weather-type2-9 {
-  background-image: url('../images/icon-pic-scaf5a99c17.png');
-  background-repeat: no-repeat;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-b-bottom {
-  background-position: 0 0;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-b-left {
-  background-position: 0 -16px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-b-right {
-  background-position: 0 -32px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-b-top {
-  background-position: 0 -48px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-double-b-left {
-  background-position: 0 -64px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-double-b-right {
-  background-position: 0 -88px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-gr-left {
-  background-position: 0 -112px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-gr-left05 {
-  background-position: 0 -162px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-gr-right {
-  background-position: 0 -192px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-gr-right05 {
-  background-position: 0 -242px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-bottom {
-  background-position: 0 -272px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-left {
-  background-position: 0 -288px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-left02 {
-  background-position: 0 -304px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-left03 {
-  background-position: 0 -316px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-left04 {
-  background-position: 0 -328px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-left05 {
-  background-position: 0 -366px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-right {
-  background-position: 0 -396px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-right02 {
-  background-position: 0 -412px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-right03 {
-  background-position: 0 -424px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-right04 {
-  background-position: 0 -436px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-right05 {
-  background-position: 0 -474px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-away-w-top {
-  background-position: 0 -504px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-block {
-  background-position: 0 -520px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-calendar {
-  background-position: 0 -536px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-clock {
-  background-position: 0 -558px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-ctrl-b-close {
-  background-position: 0 -572px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-eyes {
-  background-position: 0 -588px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-ai, .base-section a.ai:after, .list-text.content-file .ct li.ai a:before {
-  background-position: 0 -604px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-avi, .base-section a.avi:after, .list-text.content-file .ct li.avi a:before {
-  background-position: 0 -620px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-bmp, .base-section a.bmp:after, .list-text.content-file .ct li.bmp a:before {
-  background-position: 0 -636px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-cdr, .base-section a.cdr:after, .list-text.content-file .ct li.cdr a:before {
-  background-position: 0 -652px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-css, .base-section a.css:after, .list-text.content-file .ct li.css a:before {
-  background-position: 0 -668px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-csv, .base-section a.csv:after, .list-text.content-file .ct li.csv a:before {
-  background-position: 0 -684px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-dmg, .base-section a.dmg:after, .list-text.content-file .ct li.dmg a:before {
-  background-position: 0 -700px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-doc, .base-section a.doc:after, .list-text.content-file .ct li.doc a:before {
-  background-position: 0 -716px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-docx, .base-section a.docx:after, .list-text.content-file .ct li.docx a:before {
-  background-position: 0 -732px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-exe, .base-section a.exe:after, .list-text.content-file .ct li.exe a:before {
-  background-position: 0 -748px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-gif, .base-section a.gif:after, .list-text.content-file .ct li.gif a:before {
-  background-position: 0 -764px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-html, .base-section a.html:after, .list-text.content-file .ct li.html a:before {
-  background-position: 0 -780px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-ico, .base-section a.ico:after, .list-text.content-file .ct li.ico a:before {
-  background-position: 0 -796px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-jpeg, .base-section a.jpeg:after, .list-text.content-file .ct li.jpeg a:before {
-  background-position: 0 -812px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-jpg, .base-section a.jpg:after, .list-text.content-file .ct li.jpg a:before {
-  background-position: 0 -828px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-js, .base-section a.js:after, .list-text.content-file .ct li.js a:before {
-  background-position: 0 -844px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-json {
-  background-position: 0 -860px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-link, .base-section a.link:after, .list-text.content-file .ct li.link a:before {
-  background-position: 0 -876px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-md, .base-section a.md:after, .list-text.content-file .ct li.md a:before {
-  background-position: 0 -892px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-mov, .base-section a.mov:after, .list-text.content-file .ct li.mov a:before {
-  background-position: 0 -908px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-mp3, .base-section a.mp3:after, .list-text.content-file .ct li.mp3 a:before {
-  background-position: 0 -924px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-mp4, .base-section a.mp4:after, .list-text.content-file .ct li.mp4 a:before {
-  background-position: 0 -940px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-odf, .base-section a.odf:after, .list-text.content-file .ct li.odf a:before {
-  background-position: 0 -956px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-odp, .base-section a.odp:after, .list-text.content-file .ct li.odp a:before {
-  background-position: 0 -972px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-ods, .base-section a.ods:after, .list-text.content-file .ct li.ods a:before {
-  background-position: 0 -988px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-odt, .base-section a.odt:after, .list-text.content-file .ct li.odt a:before {
-  background-position: 0 -1004px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-ogg, .base-section a.ogg:after, .list-text.content-file .ct li.ogg a:before {
-  background-position: 0 -1020px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-ogv, .base-section a.ogv:after, .list-text.content-file .ct li.ogv a:before {
-  background-position: 0 -1036px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-other, .base-section a.other:after, .list-text.content-file .ct li.other a:before {
-  background-position: 0 -1052px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-pdf, .base-section a.pdf:after, .list-text.content-file .ct li.pdf a:before {
-  background-position: 0 -1068px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-png, .base-section a.png:after, .list-text.content-file .ct li.png a:before {
-  background-position: 0 -1084px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-ppt, .base-section a.ppt:after, .list-text.content-file .ct li.ppt a:before {
-  background-position: 0 -1100px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-pptx, .base-section a.pptx:after, .list-text.content-file .ct li.pptx a:before {
-  background-position: 0 -1116px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-psd, .base-section a.psd:after, .list-text.content-file .ct li.psd a:before {
-  background-position: 0 -1132px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-rar, .base-section a.rar:after, .list-text.content-file .ct li.rar a:before {
-  background-position: 0 -1148px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-rss, .base-section a.rss:after, .list-text.content-file .ct li.rss a:before {
-  background-position: 0 -1164px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-sass, .base-section a.sass:after, .list-text.content-file .ct li.sass a:before {
-  background-position: 0 -1180px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-svg, .base-section a.svg:after, .list-text.content-file .ct li.svg a:before {
-  background-position: 0 -1196px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-swf, .base-section a.swf:after, .list-text.content-file .ct li.swf a:before {
-  background-position: 0 -1212px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-tar, .base-section a.tar:after, .list-text.content-file .ct li.tar a:before {
-  background-position: 0 -1228px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-tif, .base-section a.tif:after, .list-text.content-file .ct li.tif a:before {
-  background-position: 0 -1244px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-txt, .base-section a.txt:after, .list-text.content-file .ct li.txt a:before {
-  background-position: 0 -1260px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-wav, .base-section a.wav:after, .list-text.content-file .ct li.wav a:before {
-  background-position: 0 -1276px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-webm, .base-section a.webm:after, .list-text.content-file .ct li.webm a:before {
-  background-position: 0 -1292px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-xls, .base-section a.xls:after, .list-text.content-file .ct li.xls a:before {
-  background-position: 0 -1308px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-xlsx, .base-section a.xlsx:after, .list-text.content-file .ct li.xlsx a:before {
-  background-position: 0 -1324px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-xml, .base-section a.xml:after, .list-text.content-file .ct li.xml a:before {
-  background-position: 0 -1340px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-file-type-zip, .base-section a.zip:after, .list-text.content-file .ct li.zip a:before {
-  background-position: 0 -1356px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-font-large {
-  background-position: 0 -1372px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-font-medium {
-  background-position: 0 -1398px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-font-smail {
-  background-position: 0 -1424px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon-mobile_btn_close {
-  background-position: 0 -1450px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon-mobile_btn_menu {
-  background-position: 0 -1490px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon-root {
-  background-position: 0 -1530px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon-w-img {
-  background-position: 0 -1550px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon-w-search {
-  background-position: 0 -1576px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon-w-video {
-  background-position: 0 -1592px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon_answer-checkbox-checked {
-  background-position: 0 -1618px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon_answer-checkbox {
-  background-position: 0 -1654px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon_answer-radio-checked {
-  background-position: 0 -1690px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon_answer-radio {
-  background-position: 0 -1726px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon_answer-right {
-  background-position: 0 -1762px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon_answer-select-right-s {
-  background-position: 0 -1794px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon_answer-select-right {
-  background-position: 0 -1806px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-icon_answer-wrong {
-  background-position: 0 -1834px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-info {
-  background-position: 0 -1866px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-list {
-  background-position: 0 -1882px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-opn-data-csv {
-  background-position: 0 -1898px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-opn-data-json {
-  background-position: 0 -1922px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-opn-data-rss {
-  background-position: 0 -1946px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-opn-data-xml {
-  background-position: 0 -1970px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-search {
-  background-position: 0 -1994px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-share-email {
-  background-position: 0 -2024px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-share-facebook {
-  background-position: 0 -2060px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-share-google {
-  background-position: 0 -2096px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-share-line {
-  background-position: 0 -2132px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-share-plurk {
-  background-position: 0 -2168px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-share-twitter {
-  background-position: 0 -2204px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-share {
-  background-position: 0 -2240px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-user-tool-bopomofo {
-  background-position: 0 -2264px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-user-tool-metadata {
-  background-position: 0 -2288px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-user-tool-print {
-  background-position: 0 -2312px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-1 {
-  background-position: 0 -2336px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-10 {
-  background-position: 0 -2426px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-11 {
-  background-position: 0 -2516px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-12 {
-  background-position: 0 -2606px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-13 {
-  background-position: 0 -2696px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-14 {
-  background-position: 0 -2786px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-15 {
-  background-position: 0 -2876px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-16 {
-  background-position: 0 -2966px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-17 {
-  background-position: 0 -3056px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-18 {
-  background-position: 0 -3146px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-19 {
-  background-position: 0 -3236px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-2 {
-  background-position: 0 -3326px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-20 {
-  background-position: 0 -3416px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-21 {
-  background-position: 0 -3506px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-22 {
-  background-position: 0 -3596px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-23 {
-  background-position: 0 -3686px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-24 {
-  background-position: 0 -3776px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-25 {
-  background-position: 0 -3866px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-26 {
-  background-position: 0 -3956px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-27 {
-  background-position: 0 -4046px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-28 {
-  background-position: 0 -4136px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-29 {
-  background-position: 0 -4226px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-3 {
-  background-position: 0 -4316px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-30 {
-  background-position: 0 -4406px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-31 {
-  background-position: 0 -4496px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-32 {
-  background-position: 0 -4586px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-33 {
-  background-position: 0 -4676px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-34 {
-  background-position: 0 -4766px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-35 {
-  background-position: 0 -4856px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-36 {
-  background-position: 0 -4946px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-37 {
-  background-position: 0 -5036px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-38 {
-  background-position: 0 -5126px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-39 {
-  background-position: 0 -5216px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-4 {
-  background-position: 0 -5306px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-40 {
-  background-position: 0 -5396px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-41 {
-  background-position: 0 -5486px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-42 {
-  background-position: 0 -5576px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-43 {
-  background-position: 0 -5666px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-44 {
-  background-position: 0 -5756px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-45 {
-  background-position: 0 -5846px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-46 {
-  background-position: 0 -5936px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-47 {
-  background-position: 0 -6026px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-48 {
-  background-position: 0 -6116px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-49 {
-  background-position: 0 -6206px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-5 {
-  background-position: 0 -6296px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-50 {
-  background-position: 0 -6386px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-51 {
-  background-position: 0 -6476px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-52 {
-  background-position: 0 -6566px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-53 {
-  background-position: 0 -6656px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-54 {
-  background-position: 0 -6746px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-55 {
-  background-position: 0 -6836px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-56 {
-  background-position: 0 -6926px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-57 {
-  background-position: 0 -7016px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-58 {
-  background-position: 0 -7106px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-59 {
-  background-position: 0 -7196px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-6 {
-  background-position: 0 -7286px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-60 {
-  background-position: 0 -7376px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-61 {
-  background-position: 0 -7466px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-62 {
-  background-position: 0 -7556px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-63 {
-  background-position: 0 -7646px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-64 {
-  background-position: 0 -7736px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-65 {
-  background-position: 0 -7826px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-7 {
-  background-position: 0 -7916px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-8 {
-  background-position: 0 -8006px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type-9 {
-  background-position: 0 -8096px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-1 {
-  background-position: 0 -8186px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-10 {
-  background-position: 0 -8231px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-11 {
-  background-position: 0 -8276px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-12 {
-  background-position: 0 -8321px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-13 {
-  background-position: 0 -8366px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-14 {
-  background-position: 0 -8411px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-15 {
-  background-position: 0 -8456px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-16 {
-  background-position: 0 -8501px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-17 {
-  background-position: 0 -8546px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-18 {
-  background-position: 0 -8591px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-19 {
-  background-position: 0 -8636px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-2 {
-  background-position: 0 -8681px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-20 {
-  background-position: 0 -8726px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-21 {
-  background-position: 0 -8771px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-22 {
-  background-position: 0 -8816px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-23 {
-  background-position: 0 -8861px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-24 {
-  background-position: 0 -8906px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-25 {
-  background-position: 0 -8951px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-26 {
-  background-position: 0 -8996px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-27 {
-  background-position: 0 -9041px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-28 {
-  background-position: 0 -9086px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-29 {
-  background-position: 0 -9131px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-3 {
-  background-position: 0 -9176px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-30 {
-  background-position: 0 -9221px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-31 {
-  background-position: 0 -9266px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-32 {
-  background-position: 0 -9311px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-33 {
-  background-position: 0 -9356px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-34 {
-  background-position: 0 -9401px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-35 {
-  background-position: 0 -9446px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-36 {
-  background-position: 0 -9491px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-37 {
-  background-position: 0 -9536px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-38 {
-  background-position: 0 -9581px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-39 {
-  background-position: 0 -9626px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-4 {
-  background-position: 0 -9671px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-40 {
-  background-position: 0 -9716px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-41 {
-  background-position: 0 -9761px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-42 {
-  background-position: 0 -9806px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-43 {
-  background-position: 0 -9851px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-44 {
-  background-position: 0 -9896px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-45 {
-  background-position: 0 -9941px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-46 {
-  background-position: 0 -9986px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-47 {
-  background-position: 0 -10031px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-48 {
-  background-position: 0 -10076px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-49 {
-  background-position: 0 -10121px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-5 {
-  background-position: 0 -10166px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-50 {
-  background-position: 0 -10211px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-51 {
-  background-position: 0 -10256px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-52 {
-  background-position: 0 -10301px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-53 {
-  background-position: 0 -10346px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-54 {
-  background-position: 0 -10391px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-55 {
-  background-position: 0 -10436px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-56 {
-  background-position: 0 -10481px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-57 {
-  background-position: 0 -10526px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-58 {
-  background-position: 0 -10571px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-59 {
-  background-position: 0 -10616px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-6 {
-  background-position: 0 -10661px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-60 {
-  background-position: 0 -10706px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-61 {
-  background-position: 0 -10751px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-62 {
-  background-position: 0 -10796px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-63 {
-  background-position: 0 -10841px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-64 {
-  background-position: 0 -10886px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-65 {
-  background-position: 0 -10931px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-7 {
-  background-position: 0 -10976px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-pic-weather-type2-8 {
-  background-position: 0 -11021px;
-}
-
-/* line 84, C:/Users/yhl/Desktop/fire.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-pic-weather-type2-9 {
   background-position: 0 -11066px;
 }
@@ -3528,7 +2331,7 @@ th {
 }
 /* line 15, ../sass/_base-mobile.scss */
 .base-mobile.is-active > .in > .hd a {
-  background-image: url('../images/icon-pic/icon-mobile_btn_close.png?1508210966');
+  background-image: url('../images/icon-pic/icon-mobile_btn_close.png?1509431939');
 }
 /* line 18, ../sass/_base-mobile.scss */
 .base-mobile.is-active > .in > .hd a:after {
@@ -3575,7 +2378,7 @@ th {
   width: 48px;
   height: 48px;
   background-color: #409df7;
-  background-image: url('../images/icon-pic/icon-mobile_btn_menu.png?1508210966');
+  background-image: url('../images/icon-pic/icon-mobile_btn_menu.png?1509431939');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -3690,10 +2493,9 @@ th {
 /* line 3, ../sass/_base-header.scss */
 .base-header {
   width: 250px;
-  height: 100%;
+  height: 100vh;
   float: left;
   z-index: 2;
-  position: fixed;
   background: #2f353f;
 }
 @media screen and (max-width: 768px) {
@@ -3754,6 +2556,14 @@ th {
   font-size: inherit;
   color: inherit;
   margin-right: 3px;
+}
+
+/* line 3, ../sass/_base-module-area.scss */
+.base-module-area {
+  border: 1px #ccc solid;
+  margin: 15px;
+  border-radius: 6px;
+  box-shadow: 0px 5px 17px 0px rgba(51, 51, 102, 0.5);
 }
 
 /* line 5, ../sass/_base-page-area.scss */
@@ -4077,33 +2887,37 @@ body {
   background-color: #ebeff2;
 }
 
-/* line 7, ../sass/_base-layout.scss */
+/* line 27, ../sass/_base-layout.scss */
 .base-header .info {
   background-color: #ffffff;
 }
-/* line 13, ../sass/_base-layout.scss */
-.base-header .info > .bg-drop-layout > .in > .hd, .base-header .info > .in > .hd {
+/* line 32, ../sass/_base-layout.scss */
+.base-header .info > .bg-drop-layout > .in > .hd,
+.base-header .info > .in > .hd {
   display: none;
 }
-/* line 49, ../sass/_base-layout.scss */
-.base-content .info > .bg-drop-layout > .in > .hd, .base-content .info > .in > .hd {
+/* line 51, ../sass/_base-layout.scss */
+.base-content .info > .bg-drop-layout > .in > .hd,
+.base-content .info > .in > .hd {
   display: none;
 }
-/* line 71, ../sass/_base-layout.scss */
-.base-content .info > .bg-drop-layout > .in > .ct > .in, .base-content .info > .in > .ct > .in {
+/* line 59, ../sass/_base-layout.scss */
+.base-content .info > .bg-drop-layout > .in > .ct > .in,
+.base-content .info > .in > .ct > .in {
   border-bottom: 1px solid #b6c0ca;
   margin-bottom: 8px;
 }
-/* line 84, ../sass/_base-layout.scss */
-.base-footer .info > .bg-drop-layout > .in > .hd, .base-footer .info > .in > .hd {
+/* line 70, ../sass/_base-layout.scss */
+.base-footer .info > .bg-drop-layout > .in > .hd,
+.base-footer .info > .in > .hd {
   display: none;
 }
 
-/* line 119, ../sass/_base-layout.scss */
+/* line 89, ../sass/_base-layout.scss */
 .base-header .msg-tool {
   position: relative;
 }
-/* line 152, ../sass/_base-layout.scss */
+/* line 104, ../sass/_base-layout.scss */
 .base-content .msg-tool {
   position: absolute;
   right: 0;
@@ -4114,12 +2928,12 @@ body {
   display: none;
 }
 @media screen and (max-width: 768px) {
-  /* line 152, ../sass/_base-layout.scss */
+  /* line 104, ../sass/_base-layout.scss */
   .base-content .msg-tool {
     display: none;
   }
 }
-/* line 195, ../sass/_base-layout.scss */
+/* line 127, ../sass/_base-layout.scss */
 .base-footer .msg-tool {
   overflow: hidden;
 }
@@ -4506,7 +3320,7 @@ body {
 }
 /* line 335, ../sass/_group-list_nav.scss */
 .base-content .group-list.nav > .bg-drop-layout > .in > .ct > .in > ul > li.is-parent.is-active > .group.nav > .in > .hd a:before, .base-content .group-list.nav > .in > .ct > .in > ul > li.is-parent.is-active > .group.nav > .in > .hd a:before {
-  background-image: url('../images/icon-pic/away-w-bottom.png?1508210966');
+  background-image: url('../images/icon-pic/away-w-bottom.png?1509431939');
 }
 /* line 350, ../sass/_group-list_nav.scss */
 .base-content .group-list.nav > .bg-drop-layout > .in > .ct > .in > ul > li.is-parent > .group.nav > .in > .hd a, .base-content .group-list.nav > .in > .ct > .in > ul > li.is-parent > .group.nav > .in > .hd a {
@@ -4522,7 +3336,7 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-  background-image: url('../images/icon-pic/away-b-bottom.png?1508210966');
+  background-image: url('../images/icon-pic/away-b-bottom.png?1509431939');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -4621,7 +3435,7 @@ body {
 }
 /* line 59, ../sass/_simple-text_major-logo.scss */
 .simple-text.major-logo .ct a {
-  background-image: url('../images/major_logo.png?1508227152');
+  background-image: url('../images/major_logo.png?1509431939');
   background-repeat: no-repeat;
   background-position: center;
   display: block;
@@ -4662,7 +3476,7 @@ body {
 }
 /* line 46, ../sass/_simple-text_minor-logo.scss */
 .simple-text.minor-logo .ct a {
-  background-image: url('../images/minor_logo.png?1508210966');
+  background-image: url('../images/minor_logo.png?1509431939');
   background-repeat: no-repeat;
   background-position: center;
   display: block;
@@ -5385,7 +4199,7 @@ body {
 }
 /* line 15, ../sass/_area-form_page-search.scss */
 .area-form.page-search.is-active .hd a {
-  background-image: url('../images/search-up.png?1508210966');
+  background-image: url('../images/search-up.png?1509431939');
 }
 /* line 20, ../sass/_area-form_page-search.scss */
 .area-form.page-search.is-active .ct {
@@ -5402,7 +4216,7 @@ body {
   width: 38px;
   height: 22px;
   vertical-align: middle;
-  background-image: url('../images/search-down.png?1508210966');
+  background-image: url('../images/search-down.png?1509431939');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -5433,7 +4247,7 @@ body {
 }
 /* line 93, ../sass/_area-form_page-search.scss */
 .area-form.page-search .ct .fieldset span.date input {
-  background-image: url('../images/icon-pic/calendar.png?1508210966');
+  background-image: url('../images/icon-pic/calendar.png?1509431939');
   background-position: center right;
   background-repeat: no-repeat;
 }
@@ -5521,7 +4335,7 @@ body {
   bottom: 0;
   width: 36px;
   background-color: #5e5e5e;
-  background-image: url('../images/icon-pic/icon-w-search.png?1508210966');
+  background-image: url('../images/icon-pic/icon-w-search.png?1509431939');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -5621,7 +4435,7 @@ body {
   bottom: 0;
   width: 36px;
   background-color: #71b6f9;
-  background-image: url('../images/icon-pic/icon-w-search.png?1508210966');
+  background-image: url('../images/icon-pic/icon-w-search.png?1509431939');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -5707,7 +4521,7 @@ body {
   bottom: 0;
   width: 36px;
   background-color: #5e5e5e;
-  background-image: url('../images/icon-pic/icon-w-search.png?1508210966');
+  background-image: url('../images/icon-pic/icon-w-search.png?1509431939');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -5878,6 +4692,72 @@ body {
 .group-list.sample > .bg-drop-layout > .in, .group-list.sample > .in {
   margin-left: 8px;
   margin-right: 8px;
+}
+
+/* line 2, ../sass/_list-text_platfrom.scss */
+.platfrom_content table {
+  width: 100%;
+}
+/* line 4, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr {
+  text-align: center;
+}
+/* line 6, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr th {
+  border-bottom: 2px #eaeef2 solid;
+  background-color: #fff;
+}
+/* line 10, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr td {
+  border-bottom: 1px #ebeff2 solid;
+  padding: 5px 0;
+}
+/* line 14, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .pag_name,
+.platfrom_content table tr .function {
+  text-align: left;
+}
+/* line 18, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .pag_name {
+  width: 50%;
+}
+/* line 21, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .function {
+  width: 10%;
+}
+/* line 23, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .function input {
+  font-size: 0px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+}
+/* line 28, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .function input:hover {
+  box-shadow: 1px 1px 3px 2px rgba(51, 51, 102, 0.5) inset;
+}
+/* line 32, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .function .input_edit {
+  background: #a55cef url(../Images/function_edit);
+  background-position-x: 2px;
+}
+/* line 36, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .function .input_delete {
+  background: #ff5c5f url(../Images/function_edit);
+  background-position-x: -35px;
+}
+/* line 40, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .function .input_other {
+  background: #cfcfcf url(../Images/function_edit);
+  background-position-x: -70px;
+}
+/* line 45, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+/* line 48, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr:nth-child(even) {
+  background-color: #ffffff;
 }
 
 /* line 7, ../sass/_extend.scss */
@@ -8270,11 +7150,11 @@ ol.bignum > li:nth-child(100)::before {
 }
 /* line 43, ../sass/_list-text_answer.scss */
 .list-text.answer.is-right .hd a:before {
-  background-image: url('../images/icon-pic/icon_answer-right.png?1508210966');
+  background-image: url('../images/icon-pic/icon_answer-right.png?1509431939');
 }
 /* line 56, ../sass/_list-text_answer.scss */
 .list-text.answer.is-wrong .hd a:before {
-  background-image: url('../images/icon-pic/icon_answer-wrong.png?1508210966');
+  background-image: url('../images/icon-pic/icon_answer-wrong.png?1509431939');
 }
 /* line 77, ../sass/_list-text_answer.scss */
 .list-text.answer .hd span {
@@ -8301,7 +7181,7 @@ ol.bignum > li:nth-child(100)::before {
 }
 /* line 118, ../sass/_list-text_answer.scss */
 .list-text.answer .ct li.is-radio.is-select a:before {
-  background-image: url('../images/icon-pic/icon_answer-radio-checked.png?1508210966');
+  background-image: url('../images/icon-pic/icon_answer-radio-checked.png?1509431939');
 }
 /* line 124, ../sass/_list-text_answer.scss */
 .list-text.answer .ct li.is-radio a {
@@ -8311,11 +7191,11 @@ ol.bignum > li:nth-child(100)::before {
 .list-text.answer .ct li.is-radio a:before {
   content: "​";
   border-radius: 50%;
-  background-image: url('../images/icon-pic/icon_answer-radio.png?1508210966');
+  background-image: url('../images/icon-pic/icon_answer-radio.png?1509431939');
 }
 /* line 141, ../sass/_list-text_answer.scss */
 .list-text.answer .ct li.is-checkbox.is-select a:before {
-  background-image: url('../images/icon-pic/icon_answer-checkbox-checked.png?1508210966');
+  background-image: url('../images/icon-pic/icon_answer-checkbox-checked.png?1509431939');
 }
 /* line 147, ../sass/_list-text_answer.scss */
 .list-text.answer .ct li.is-checkbox a {
@@ -8325,7 +7205,7 @@ ol.bignum > li:nth-child(100)::before {
 .list-text.answer .ct li.is-checkbox a:before {
   content: "​";
   border-radius: 3px;
-  background-image: url('../images/icon-pic/icon_answer-checkbox.png?1508210966');
+  background-image: url('../images/icon-pic/icon_answer-checkbox.png?1509431939');
 }
 /* line 162, ../sass/_list-text_answer.scss */
 .list-text.answer .ct li.is-answer span:before {
@@ -8346,7 +7226,7 @@ ol.bignum > li:nth-child(100)::before {
   width: 28px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../images/icon-pic/icon_answer-select-right.png?1508210966');
+  background-image: url('../images/icon-pic/icon_answer-select-right.png?1509431939');
 }
 /* line 186, ../sass/_list-text_answer.scss */
 .list-text.answer .ct a {
@@ -9135,7 +8015,7 @@ ol.bignum > li:nth-child(100)::before {
 }
 /* line 198, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.date input {
-  background-image: url('../images/icon-pic/calendar.png?1508210966');
+  background-image: url('../images/icon-pic/calendar.png?1509431939');
   background-position: center right;
   background-repeat: no-repeat;
 }
