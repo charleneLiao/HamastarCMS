@@ -4731,31 +4731,33 @@ body {
   height: 35px;
   width: 35px;
   border-radius: 50px;
+  transition: all .25s ease-in;
 }
-/* line 28, ../sass/_list-text_platfrom.scss */
+/* line 29, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr .function input:hover {
-  box-shadow: 1px 1px 3px 2px rgba(51, 51, 102, 0.5) inset;
+  box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
+  background-position-y: 1px;
 }
-/* line 32, ../sass/_list-text_platfrom.scss */
+/* line 34, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr .function .input_edit {
   background: #a55cef url(../Images/function_edit);
   background-position-x: 2px;
 }
-/* line 36, ../sass/_list-text_platfrom.scss */
+/* line 38, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr .function .input_delete {
   background: #ff5c5f url(../Images/function_edit);
   background-position-x: -35px;
 }
-/* line 40, ../sass/_list-text_platfrom.scss */
+/* line 42, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr .function .input_other {
   background: #cfcfcf url(../Images/function_edit);
   background-position-x: -70px;
 }
-/* line 45, ../sass/_list-text_platfrom.scss */
+/* line 47, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr:nth-child(odd) {
   background-color: #f8f9fa;
 }
-/* line 48, ../sass/_list-text_platfrom.scss */
+/* line 50, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr:nth-child(even) {
   background-color: #ffffff;
 }

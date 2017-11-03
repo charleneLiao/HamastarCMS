@@ -25,8 +25,10 @@
                         height: 35px;
                         width: 35px;
                         border-radius: 50px;
+                        transition: all .25s ease-in;
                         &:hover {
-                            box-shadow: 1px 1px 3px 2px rgba(20%, 20%, 40%, 0.5) inset;
+                            box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
+                            background-position-y: 1px;
                         }
                     }
                     .input_edit {
