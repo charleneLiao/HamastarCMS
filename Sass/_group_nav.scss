@@ -1,299 +1,182 @@
 //群組
-
 //選單================================================================
-
 .group.nav {
-
-	.base-mobile & {
-		position: relative;
-
-		> .bg-drop-layout > .in, > .in {
-
-			> .hd {
-
-				> .in {
-
-				}
-
-				h3 {
-
-				}
-
-				span {
-					display: block;
-				}
-
-				a {
-					display: block;
-					padding: $interval-m;
-					padding-right: 40px;
-
-					&:before {
-						@include icon-font('keyboard_arrow_down');
-						position: absolute;
-						top: 10px;
-						right: 10px;
-					}
-				}
-			}
-
-			> .ct {
-				display: none;
-
-				> .in {
-					padding: $interval-xs;
-					background-color: $light;
-				}
-
-				[data-type][data-index] {
-
-					> .bg-drop-layout > .in, > .in {
-						margin: 0 !important;
-					}
-				}
-			}
-
-			> .ft {
-
-				> .in {
-
-				}
-
-				ul {
-
-				}
-
-				li {
-
-				}
-
-				span {
-
-				}
-
-				a {
-
-				}
-			}
-		}
-	}
-
-	.base-header & {
-
-		> .bg-drop-layout > .in, > .in {
-
-			> .hd {
-
-				> .in {
-
-				}
-
-				h3 {
-				}
-
-				span {
-
-				}
-
-				a {
-					@extend %ellipsis;
-					line-height: $interval-xl;
-					display: block;
-					padding: $interval-s;
-					text-align: left;
-					color: $light-gray;
-					font-size: $font-size-l;
-					&:before{
-						@include fontAwesome('folder-open-o');
-						width: 20px;
-						height: 20px;
-						display: inline-block;
-						margin-right: 9px;
-					}
-
-					@include js(false) {
-						text-align: left;
-						font-weight: $font-weight-b;
-					}
-				}
-			}
-
-			> .ct {
-				display: none;
-				top: 100%;
-				width: 100%;
-				left: 0;
-
-				@include js(false) {
-					display: block;
-					position: static;
-					width: 100% !important;
-				}
-
-				> .in {
-					padding: $interval-xs;
-				}
-			}
-
-			> .ft {
-
-				> .in {
-
-				}
-
-				ul {
-
-				}
-
-				li {
-
-				}
-
-				span {
-
-				}
-
-				a {
-
-				}
-			}
-		}
-	}
-
-	.base-content & {
-		position: relative;
-
-		> .bg-drop-layout > .in, > .in {
-
-			> .hd {
-
-				> .in {
-
-				}
-
-				h3 {
-
-				}
-
-				span {
-					display: block;
-				}
-
-				a {
-					display: block;
-					padding: 12px;
-					font-size: $font-size-l;
-
-					&:hover {
-						background-color: $light;
-						color: currentColor;
-					}
-				}
-			}
-
-			> .ct {
-				display: none;
-
-				@include js(false) {
-					display: block;
-				}
-
-				> .in {
-					overflow: hidden;
-					background-color: deeper($major-color);
-				}
-
-				> .nav {
-
-					> .in {
-						margin: 0;
-					}
-				}
-			}
-
-			> .ft {
-
-				> .in {
-
-				}
-
-				ul {
-
-				}
-
-				li {
-
-				}
-
-				span {
-
-				}
-
-				a {
-
-				}
-			}
-		}
-	}
-
-	.base-footer & {
-		padding: $interval-m $interval-xs;
-
-		> .bg-drop-layout > .in, > .in {
-
-			> .hd {
-
-				> .in {
-
-				}
-
-				h3 {
-
-				}
-
-				span {
-					display: block;
-				}
-
-				a {
-					display: block;
-					padding: $interval-s $interval-m;
-					margin-bottom: $interval-s;
-					border-bottom: $border;
-					line-height: $line-height-m;
-					color: $body-font-color;
-				}
-			}
-
-			> .ct {
-
-				> .in {
-
-				}
-			}
-
-			> .ft {
-
-				> .in {
-
-				}
-
-				ul {
-
-				}
-
-				li {
-
-				}
-
-				span {
-
-				}
-
-				a {
-
-				}
-			}
-		}
-	}
+    .base-mobile & {
+        position: relative;
+        >.bg-drop-layout>.in,
+        >.in {
+            >.hd {
+                >.in {}
+                h3 {}
+                span {
+                    display: block;
+                }
+                a {
+                    display: block;
+                    padding: $interval-m;
+                    padding-right: 40px;
+                    &:before {
+                        @include icon-font('keyboard_arrow_down');
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                    }
+                }
+            }
+            >.ct {
+                display: none;
+                >.in {
+                    padding: $interval-xs;
+                    background-color: $light;
+                }
+                [data-type][data-index] {
+                    >.bg-drop-layout>.in,
+                    >.in {
+                        margin: 0 !important;
+                    }
+                }
+            }
+            >.ft {
+                >.in {}
+                ul {}
+                li {}
+                span {}
+                a {}
+            }
+        }
+    }
+    .base-header & {
+        >.bg-drop-layout>.in,
+        >.in {
+            >.hd {
+                >.in {}
+                h3 {}
+                span {}
+                a {
+                    @extend %ellipsis;
+                    line-height: $interval-xl;
+                    display: block;
+                    padding: $interval-s;
+                    text-align: left;
+                    color: $light-gray;
+                    font-size: $font-size-l;
+                    &:before {
+                        @include fontAwesome('folder-open-o');
+                        width: 20px;
+                        height: 20px;
+                        display: inline-block;
+                        margin-right: 9px;
+                    }
+                    &:after {
+                        @include icon-font('add');
+                        display: inline-block;
+                        float: right;
+                    }
+                    @include js(false) {
+                        text-align: left;
+                        font-weight: $font-weight-b;
+                    }
+                }
+            }
+            >.ct {
+                display: none;
+                top: 100%;
+                width: 100%;
+                left: 0;
+                @include js(false) {
+                    display: block;
+                    position: static;
+                    width: 100% !important;
+                }
+                >.in {
+                    padding: $interval-xs;
+                }
+            }
+            >.ft {
+                >.in {}
+                ul {}
+                li {}
+                span {}
+                a {}
+            }
+        }
+    }
+    .base-content & {
+        position: relative;
+        >.bg-drop-layout>.in,
+        >.in {
+            >.hd {
+                >.in {}
+                h3 {}
+                span {
+                    display: block;
+                }
+                a {
+                    display: block;
+                    padding: 12px;
+                    font-size: $font-size-l;
+                    &:hover {
+                        background-color: $light;
+                        color: currentColor;
+                        
+                            @include fontAwesome('minus');
+                        
+                    }
+                }
+            }
+            >.ct {
+                display: none;
+                @include js(false) {
+                    display: block;
+                }
+                >.in {
+                    overflow: hidden;
+                    background-color: deeper($major-color);
+                }
+                >.nav {
+                    >.in {
+                        margin: 0;
+                    }
+                }
+            }
+            >.ft {
+                >.in {}
+                ul {}
+                li {}
+                span {}
+                a {}
+            }
+        }
+    }
+    .base-footer & {
+        padding: $interval-m $interval-xs;
+        >.bg-drop-layout>.in,
+        >.in {
+            >.hd {
+                >.in {}
+                h3 {}
+                span {
+                    display: block;
+                }
+                a {
+                    display: block;
+                    padding: $interval-s $interval-m;
+                    margin-bottom: $interval-s;
+                    border-bottom: $border;
+                    line-height: $line-height-m;
+                    color: $body-font-color;
+                }
+            }
+            >.ct {
+                >.in {}
+            }
+            >.ft {
+                >.in {}
+                ul {}
+                li {}
+                span {}
+                a {}
+            }
+        }
+    }
 }

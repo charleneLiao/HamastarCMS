@@ -53,7 +53,9 @@
 
 			a {
 				display: block;
-				padding: $interval-m;
+        padding: $interval-m;
+
+        
 			}
 
 			/*i*/.mark {
@@ -254,7 +256,7 @@
 				display: block;
 				padding: $interval-s $interval-m;
 				color: $white;
-
+        
 				&:hover {
 					background-color: $white;
 					color: deeper($minor-color);
