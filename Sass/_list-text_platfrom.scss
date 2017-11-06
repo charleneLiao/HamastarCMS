@@ -1,55 +1,99 @@
-    .platfrom_content {
-        table {
-            width: 100%;
-            tr {
-                text-align: center;
-                th {
-                    border-bottom: 2px #eaeef2 solid;
-                    background-color: #fff;
+.platfrom_content {
+    table {
+        width: 100%;
+        tr {
+            text-align: center;
+            th {
+                border-bottom: 2px $line_gray solid;
+                background-color: #fff;
+            }
+            td {
+                // width: 7%;
+                color: $gray;
+                border-bottom: 1px $line_gray solid;
+                padding: 2px 0;
+                select {
+                    padding: 0 20px;
+                    width: 60px;
+                    height: 30px;
+                    border-radius: 30px;
+                    -webkit-appearance: none;
+                    background: url(../Images/select_arrw.png);
+                    background-position: -3px -3px;
                 }
-                td {
-                    border-bottom: 1px #ebeff2 solid;
-                    padding: 5px 0;
-                }
-                .pag_name,
-                .function {
-                    text-align: left;
-                }
-                .pag_name {
-                    width: 50%;
-                }
-                .function {
-                    width: 10%;
-                    input {
-                        font-size: 0px;
-                        height: 35px;
-                        width: 35px;
-                        border-radius: 50px;
-                        transition: all .25s ease-in;
-                        &:hover {
-                            box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
-                            background-position-y: 1px;
-                        }
-                    }
-                    .input_edit {
-                        background: #a55cef url(../Images/function_edit);
-                        background-position-x: 2px;
-                    }
-                    .input_delete {
-                        background: #ff5c5f url(../Images/function_edit);
-                        background-position-x: -35px;
-                    }
-                    .input_other {
-                        background: #cfcfcf url(../Images/function_edit);
-                        background-position-x: -70px;
+                .page_mode {
+                    display: inline-block;
+                    &::before {
+                        margin-right: 5px;
                     }
                 }
-                &:nth-child(odd) {
-                    background-color: #f8f9fa;
+                .is_on {
+                    color: #08c275;
+                    &::before {
+                        @include icon-font('check_circle');
+                        color: #08c275;
+                    }
                 }
-                &:nth-child(even) {
-                    background-color: #ffffff;
+                .is_off {
+                    color: #ff5d62;
+                    &::before {
+                        @include icon-font('cancel');
+                        color: #ff5d62;
+                    }
                 }
+            }
+            .pag_name,
+            .function {
+                text-align: left;
+            }
+            .pag_name {
+                //   width: 45%;
+            }
+            .pag_type {
+                //  width: 7%;
+            }
+            .function {
+                padding-left: 20px;
+                width: 150px;
+                input {
+                    font-size: 0px;
+                    height: 30px;
+                    width: 30px;
+                    border-radius: 50px;
+                    transition: all .25s ease-in;
+                    border: 1px #000000 solid;
+                    margin-right: 5px;
+                    &:hover {
+                        box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
+                        background-position-y: 2px;
+                    }
+                }
+                .input_edit {
+                    background: #a55cef url(../Images/function_edit);
+                    background-position-x: 2px;
+                    border-color: #974ee1;
+                }
+                .input_delete {
+                    background: #ff5c5f url(../Images/function_edit);
+                    background-position: -31px 1px;
+                    border-color: #ef3b3e;
+                }
+                .input_other {
+                    background: #cfcfcf url(../Images/function_edit);
+                    background-position-x: -60px;
+                    border-color: #9a9a9a;
+                }
+            }
+            .edit_date {
+                width: 10%;
+                padding-right: 20px;
+            }
+            &:nth-child(odd) {
+                background-color: #f8f9fa;
+            }
+            &:nth-child(even) {
+                background-color: #ffffff;
             }
         }
     }
+}

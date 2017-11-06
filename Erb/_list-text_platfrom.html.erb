@@ -5,13 +5,13 @@
         <table>
           <tr>
             <th class="function">功能</th>
-            <th>類型</th>
+            <th class="pag_type">類型</th>
             <th class="pag_name">名稱</th>
             <th>排序</th>
             <th>點擊數</th>
             <th>狀態</th>
             <th>修改人</th>
-            <th>修改時間</th>
+            <th class="edit_date">修改時間</th>
           </tr>
           <% (1..8).each do |n| %>
           <tr class="tableClass_tr1">
@@ -36,9 +36,15 @@
                
             </td>
             <td><span class="onclick_cost"><%= rand(300) %></span></td>
-            <td><span class="page_mode">狀態</span></td>
+            <td>
+              <%if (rand(2) == 1)%>
+              <span class="page_mode is_on">啟用</span>
+              <%else%>
+              <span class="page_mode is_off">停用</span>
+              <% end %>
+            </td>
             <td><span class="user_name"><%= zh_lorem_name %></span></td>
-            <td><span class="edit_date"><%= lorem_date %></span></td>
+            <td><span class="edit_date">2017-06-23</span></td>
             <% n %>
           </tr>
           <% end %>
@@ -47,3 +53,4 @@
 		</div>
 	</div>
 </div>
+
