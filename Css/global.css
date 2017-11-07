@@ -4428,7 +4428,7 @@ body {
   background-color: #f0f0f0;
   color: currentColor;
 }
-/* line 127, ../sass/_group_nav.scss */
+/* line 126, ../sass/_group_nav.scss */
 .base-content .group.nav > .bg-drop-layout > .in > .ct,
 .base-content .group.nav > .in > .ct {
   display: none;
@@ -4438,27 +4438,27 @@ body {
 .base-content .group.nav > .in > .ct {
   display: block;
 }
-/* line 132, ../sass/_group_nav.scss */
+/* line 131, ../sass/_group_nav.scss */
 .base-content .group.nav > .bg-drop-layout > .in > .ct > .in,
 .base-content .group.nav > .in > .ct > .in {
   overflow: hidden;
   background-color: #409df7;
 }
-/* line 137, ../sass/_group_nav.scss */
+/* line 136, ../sass/_group_nav.scss */
 .base-content .group.nav > .bg-drop-layout > .in > .ct > .nav > .in,
 .base-content .group.nav > .in > .ct > .nav > .in {
   margin: 0;
 }
-/* line 151, ../sass/_group_nav.scss */
+/* line 150, ../sass/_group_nav.scss */
 .base-footer .group.nav {
   padding: 8px 3px;
 }
-/* line 158, ../sass/_group_nav.scss */
+/* line 157, ../sass/_group_nav.scss */
 .base-footer .group.nav > .bg-drop-layout > .in > .hd span,
 .base-footer .group.nav > .in > .hd span {
   display: block;
 }
-/* line 161, ../sass/_group_nav.scss */
+/* line 160, ../sass/_group_nav.scss */
 .base-footer .group.nav > .bg-drop-layout > .in > .hd a,
 .base-footer .group.nav > .in > .hd a {
   display: block;

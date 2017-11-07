@@ -118,10 +118,9 @@
                     &:hover {
                         background-color: $light;
                         color: currentColor;
-                        
-                            @include fontAwesome('minus');
-                        
+                        @include fontAwesome('minus');
                     }
+                    
                 }
             }
             >.ct {
