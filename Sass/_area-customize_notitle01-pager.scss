@@ -81,7 +81,7 @@ width: 100%;
                 a {
                     background-color: $major-color;
                     color: $white;
-                    box-shadow: inset 0px 0px 4px 0px mix($black, $major-color, 80%);
+                    box-shadow: inset 0px 0px 4px 0px darken($major-color, 30%);
                     &:hover {
                         background-color: deeper($major-color);
                     }
@@ -103,8 +103,9 @@ width: 100%;
             color: $deep-gray;
             padding: 8px 14px;
             border: 1px #ccc solid;
+            margin-right: -1px;
             &:hover {
-                background-color: $light-gray;
+                background-color: lighten($major-color,25%);
             }
             &:active {
                 box-shadow: inset 0px 0px 4px 0px mix($black, $light-gray, 40%);
@@ -122,7 +123,7 @@ width: 100%;
             padding: 6px 12px;
             border-top-left-radius: 0px;
             border-bottom-left-radius: 0px;
-            background: $light-gray;
+            background: #caced2;
             border: 1px solid $line_gray;
             &:before {
                 @include fontAwesome('arrow-circle-right');
@@ -135,7 +136,7 @@ width: 100%;
                 text-align: center;
             }
             &:hover {
-                background: $gray;
+                background: $major-color;
             }
             &:active {
                 box-shadow: inset 0px 0px 4px 0px mix($black, $light-gray, 40%);
@@ -145,7 +146,12 @@ width: 100%;
             }
         }
         .page_empty {
-            padding: 0 8px;
+          a{
+            cursor: default;
+            &:hover{
+              background-color: inherit;
+            }
+          }
         }
         /*i*/
         .mark {}

@@ -1168,3 +1168,10 @@
 			display: block !important;
 		}
 	}
+	// 自定義
+	%input-focus{
+		&:focus, &:active{
+					box-shadow: 0 0 7px 0 lighten($major-color,5%);
+					border-color: $major-color;
+		}
+	}

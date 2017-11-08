@@ -342,6 +342,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* line 1173, ../sass/_base-function.scss */
+.platfrom_content table tr td select:focus, .search_down .fieldset .search input:focus, .platfrom_content table tr td select:active, .search_down .fieldset .search input:active {
+  box-shadow: 0 0 7px 0 #89c3fa;
+  border-color: #71b6f9;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../images/icon-font/icomoon.eot?59oic8");
@@ -5572,7 +5578,7 @@ body {
 .area-customize.notitle01-pager .ct li.is-active a {
   background-color: #71b6f9;
   color: #ffffff;
-  box-shadow: inset 0px 0px 4px 0px #2b3946;
+  box-shadow: inset 0px 0px 4px 0px #086ac9;
 }
 /* line 85, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct li.is-active a:hover {
@@ -5591,34 +5597,35 @@ body {
   color: #5e5e5e;
   padding: 8px 14px;
   border: 1px #ccc solid;
+  margin-right: -1px;
 }
-/* line 106, ../sass/_area-customize_notitle01-pager.scss */
+/* line 107, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct a:hover {
-  background-color: #b6c0ca;
+  background-color: #ebf5fe;
 }
-/* line 109, ../sass/_area-customize_notitle01-pager.scss */
+/* line 110, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct a:active {
   box-shadow: inset 0px 0px 4px 0px #777d83;
 }
-/* line 113, ../sass/_area-customize_notitle01-pager.scss */
+/* line 114, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct .count {
   font-size: 1em;
   color: #5e5e5e;
 }
-/* line 116, ../sass/_area-customize_notitle01-pager.scss */
+/* line 117, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct .count i {
   margin-right: 5px;
 }
-/* line 120, ../sass/_area-customize_notitle01-pager.scss */
+/* line 121, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct .btn {
   margin: 0 7px 0 -6px;
   padding: 6px 12px;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
-  background: #b6c0ca;
+  background: #caced2;
   border: 1px solid #eaeef2;
 }
-/* line 127, ../sass/_area-customize_notitle01-pager.scss */
+/* line 128, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct .btn:before {
   width: 10px;
   height: 6px;
@@ -5628,21 +5635,25 @@ body {
   color: #1a1a1a;
   text-align: center;
 }
-/* line 137, ../sass/_area-customize_notitle01-pager.scss */
+/* line 138, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct .btn:hover {
-  background: #7a7a7a;
+  background: #71b6f9;
 }
-/* line 140, ../sass/_area-customize_notitle01-pager.scss */
+/* line 141, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct .btn:active {
   box-shadow: inset 0px 0px 4px 0px #777d83;
 }
-/* line 143, ../sass/_area-customize_notitle01-pager.scss */
+/* line 144, ../sass/_area-customize_notitle01-pager.scss */
 .area-customize.notitle01-pager .ct .btn span {
   font-size: 0;
 }
-/* line 147, ../sass/_area-customize_notitle01-pager.scss */
-.area-customize.notitle01-pager .ct .page_empty {
-  padding: 0 8px;
+/* line 149, ../sass/_area-customize_notitle01-pager.scss */
+.area-customize.notitle01-pager .ct .page_empty a {
+  cursor: default;
+}
+/* line 151, ../sass/_area-customize_notitle01-pager.scss */
+.area-customize.notitle01-pager .ct .page_empty a:hover {
+  background-color: inherit;
 }
 
 /* line 3, ../sass/_simple-text_btn.scss */
@@ -5686,13 +5697,14 @@ body {
 /* line 45, ../sass/_simple-text_btn.scss */
 .edit-btn.addRoot a {
   background-color: #fcc660;
+  padding: 13px 15px;
 }
 
-/* line 65, ../sass/_simple-text_btn.scss */
+/* line 66, ../sass/_simple-text_btn.scss */
 .simple-text.btn .ct {
   /*i*/
 }
-/* line 79, ../sass/_simple-text_btn.scss */
+/* line 80, ../sass/_simple-text_btn.scss */
 .base-extend .simple-text.btn {
   display: none;
   position: fixed;
@@ -5701,29 +5713,29 @@ body {
   z-index: 1;
 }
 @media screen and (max-width: 768px) {
-  /* line 79, ../sass/_simple-text_btn.scss */
+  /* line 80, ../sass/_simple-text_btn.scss */
   .base-extend .simple-text.btn {
     display: block !important;
   }
 }
-/* line 88, ../sass/_simple-text_btn.scss */
+/* line 89, ../sass/_simple-text_btn.scss */
 .base-extend .simple-text.btn > .bg-drop-layout > .in,
 .base-extend .simple-text.btn > .in {
   position: relative;
 }
-/* line 93, ../sass/_simple-text_btn.scss */
+/* line 94, ../sass/_simple-text_btn.scss */
 .base-extend .simple-text.btn .hd {
   display: none;
 }
-/* line 100, ../sass/_simple-text_btn.scss */
+/* line 101, ../sass/_simple-text_btn.scss */
 .base-extend .simple-text.btn .ct {
   /*i*/
 }
-/* line 102, ../sass/_simple-text_btn.scss */
+/* line 103, ../sass/_simple-text_btn.scss */
 .base-extend .simple-text.btn .ct span {
   display: block;
 }
-/* line 105, ../sass/_simple-text_btn.scss */
+/* line 106, ../sass/_simple-text_btn.scss */
 .base-extend .simple-text.btn .ct a {
   position: absolute;
   bottom: 0;
@@ -5737,12 +5749,12 @@ body {
   transition: 150ms;
   font-size: 0;
 }
-/* line 117, ../sass/_simple-text_btn.scss */
+/* line 118, ../sass/_simple-text_btn.scss */
 .base-extend .simple-text.btn .ct a:hover {
   background-color: #414141;
   opacity: 0.7;
 }
-/* line 121, ../sass/_simple-text_btn.scss */
+/* line 122, ../sass/_simple-text_btn.scss */
 .base-extend .simple-text.btn .ct a:active {
   box-shadow: inset 0 0 10px 0 #1a1a1a;
 }
@@ -6258,7 +6270,7 @@ body {
 }
 /* line 6, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr:hover, .platfrom_content table tr:nth-child(odd):hover {
-  background: #e9ecef;
+  background: #eef7ff;
 }
 /* line 9, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr:nth-child(odd) {
@@ -6268,17 +6280,25 @@ body {
 .platfrom_content table tr th, .platfrom_content table tr td {
   padding: 5px 0;
 }
-/* line 15, ../sass/_list-text_platfrom.scss */
+/* line 14, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr th:first-child, .platfrom_content table tr td:first-child {
+  padding-left: 20px;
+}
+/* line 17, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr th:last-child, .platfrom_content table tr td:last-child {
+  padding-right: 20px;
+}
+/* line 21, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr th {
   border-bottom: 2px #eaeef2 solid;
   background-color: #fff;
 }
-/* line 19, ../sass/_list-text_platfrom.scss */
+/* line 25, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr td {
   color: #414141;
   border-bottom: 1px #eaeef2 solid;
 }
-/* line 23, ../sass/_list-text_platfrom.scss */
+/* line 29, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr td select {
   padding: 0 20px;
   width: 60px;
@@ -6287,98 +6307,104 @@ body {
   -webkit-appearance: none;
   background: url(../Images/select_arrw.png);
   background-position: -3px -3px;
+  cursor: pointer;
 }
-/* line 32, ../sass/_list-text_platfrom.scss */
+/* line 40, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr td .page_mode {
   display: inline-block;
 }
-/* line 34, ../sass/_list-text_platfrom.scss */
+/* line 42, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr td .page_mode::before {
   margin-right: 5px;
 }
-/* line 38, ../sass/_list-text_platfrom.scss */
+/* line 47, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr td .is_on {
   color: #08c275;
 }
-/* line 40, ../sass/_list-text_platfrom.scss */
+/* line 49, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr td .is_on::before {
   font-size: inherit;
   color: inherit;
   color: #08c275;
 }
-/* line 45, ../sass/_list-text_platfrom.scss */
+/* line 54, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr td .is_off {
   color: #ff5d62;
 }
-/* line 47, ../sass/_list-text_platfrom.scss */
+/* line 56, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr td .is_off::before {
   font-size: inherit;
   color: inherit;
   color: #ff5d62;
 }
-/* line 54, ../sass/_list-text_platfrom.scss */
+/* line 63, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr .td-L {
   text-align: left;
 }
-/* line 57, ../sass/_list-text_platfrom.scss */
+/* line 66, ../sass/_list-text_platfrom.scss */
 .platfrom_content table tr .td-C {
   text-align: center;
 }
-/* line 60, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_func {
-  padding-left: 20px;
-  width: 150px;
+/* line 70, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .td_rank {
+  width: 70px;
 }
-/* line 63, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_func input {
-  font-size: 0px;
-  height: 30px;
-  width: 30px;
+/* line 74, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .td_status, .platfrom_content table tr .td_click, .platfrom_content table tr .td_fixMan, .platfrom_content table tr .td_date {
+  width: 100px;
+}
+/* line 78, ../sass/_list-text_platfrom.scss */
+.platfrom_content table tr .td_func {
+  width: 165px;
+}
+/* line 83, ../sass/_list-text_platfrom.scss */
+.platfrom_content table .funcBtn {
   border-radius: 50px;
   transition: all 0.05s ease-in;
-  border: 1px #000000 solid;
+  border: 1px #1a1a1a solid;
   margin-right: 5px;
+  padding: 7px 15px;
+  background-position-y: 1px !important;
 }
-/* line 71, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_func input:hover {
+/* line 90, ../sass/_list-text_platfrom.scss */
+.platfrom_content table .funcBtn:active {
   box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
   background-position-y: 2px;
 }
-/* line 76, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_func .input_edit {
+/* line 94, ../sass/_list-text_platfrom.scss */
+.platfrom_content table .funcBtn span {
+  font-size: 0;
+}
+/* line 98, ../sass/_list-text_platfrom.scss */
+.platfrom_content table .edit {
   background: #a55cef url(../Images/function_edit);
   background-position-x: 2px;
   border-color: #a053ee;
 }
-/* line 80, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_func .input_edit:hover {
+/* line 102, ../sass/_list-text_platfrom.scss */
+.platfrom_content table .edit:hover {
   background-color: #8b2eea;
 }
-/* line 84, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_func .input_delete {
+/* line 106, ../sass/_list-text_platfrom.scss */
+.platfrom_content table .delete {
   background: #ff5c5f url(../Images/function_edit);
   background-position: -31px 0px;
   border-color: #ff5255;
 }
-/* line 88, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_func .input_delete:hover {
+/* line 110, ../sass/_list-text_platfrom.scss */
+.platfrom_content table .delete:hover {
   background-color: #ff292d;
 }
-/* line 92, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_func .input_other {
+/* line 114, ../sass/_list-text_platfrom.scss */
+.platfrom_content table .other {
   background: #cfcfcf url(../Images/function_edit);
   background-position-x: -61px;
   border-color: #9a9a9a;
 }
-/* line 98, ../sass/_list-text_platfrom.scss */
-.platfrom_content table tr .td_date {
-  width: 10%;
-  padding-right: 20px;
-}
 
 /* line 2, ../sass/_area-form_search_down.scss */
 .search_down .fieldset {
-  border: 1px solid #eff1f2;
+  border: 1px solid #d9dde0;
   width: 450px;
   border-radius: 30px;
   padding: 2px 10px;
@@ -6389,7 +6415,7 @@ body {
 .search_down .fieldset select {
   width: 100px;
   border: none;
-  border-right: 1px #eaeef2 solid;
+  border-right: 1px solid #d9dde0;
   -webkit-appearance: none;
   background: url(../Images/select_arrw.png) no-repeat;
   background-position: 35px -3px;
@@ -6399,17 +6425,17 @@ body {
 /* line 20, ../sass/_area-form_search_down.scss */
 .search_down .fieldset .search input {
   border: none;
-  width: 300px;
+  width: 70%;
   background: transparent;
 }
-/* line 27, ../sass/_area-form_search_down.scss */
+/* line 28, ../sass/_area-form_search_down.scss */
 .search_down .fieldset .submit a {
   display: inline-block;
   position: absolute;
   right: 0;
   padding: 7px 15px;
 }
-/* line 32, ../sass/_area-form_search_down.scss */
+/* line 33, ../sass/_area-form_search_down.scss */
 .search_down .fieldset .submit a::before {
   color: #2f353f;
 }

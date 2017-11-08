@@ -4,9 +4,9 @@
 			<div class="in">
         <table>
           <tr>
-            <th class="td_func">功能</th>
+            <th class="td_func td-L">功能</th>
             <th class="td_type">類型</th>
-            <th class="td_title">名稱</th>
+            <th class="td_title td-L">名稱</th>
             <th class="td_rank">排序</th>
             <th class="td_click">點擊數</th>
             <th class="td_status">狀態</th>
@@ -16,9 +16,9 @@
           <% (1..8).each do |n| %>
           <tr>
           　<td class="td-L">
-              <input type="submit"  title="編輯" value="編輯" class="input_edit"></input>
-              <input type="submit" title="刪除" class="input_delete"></input>
-              <input type="submit"  title="其他" class="input_other"></input>
+						<a href="#" class="funcBtn edit" title="編輯"><span>編輯</span></a>
+						<a href="#" class="funcBtn delete" title="刪除"><span>刪除</span></a>
+						<a href="#" class="funcBtn other" title="其他"><span>其他</span></a>
             </td>
           　<td>
               <span><img class="img_system"></span>

@@ -4,13 +4,19 @@
         tr {
             text-align: center;
             &:hover,&:nth-child(odd):hover{
-              background: darken(#f8f9fa,5%);
+              background: #eef7ff;
             }
             &:nth-child(odd) {
                 background-color: #f8f9fa;
             }
             th,td{
             padding: 5px 0;
+              &:first-child{
+                padding-left: 20px;
+              }
+              &:last-child{
+                padding-right: 20px;
+              }
             }
             th {
                 border-bottom: 2px $line_gray solid;
@@ -28,6 +34,8 @@
                     -webkit-appearance: none;
                     background: url(../Images/select_arrw.png);
                     background-position: -3px -3px;
+                    cursor: pointer;
+                    @extend %input-focus;
                 }
                 .page_mode {
                     display: inline-block;
@@ -35,6 +43,7 @@
                         margin-right: 5px;
                     }
                 }
+                // 停用啟用
                 .is_on {
                     color: #08c275;
                     &::before {
@@ -50,55 +59,62 @@
                     }
                 }
             }
-            // 欄寬
+        // 欄寬
             .td-L{
               text-align: left;
             }
             .td-C{
               text-align: center;
             }
+            // 排序
+            .td_rank{
+              width: 70px;
+            }
+            // 狀態 點擊數 修改人 修改時間
+            .td_status, .td_click, .td_fixMan,.td_date{
+              width: 100px;
+            }
+            // 功能
             .td_func {
-                padding-left: 20px;
-                width: 150px;
-                input {
-                    font-size: 0px;
-                    height: 30px;
-                    width: 30px;
-                    border-radius: 50px;
-                    transition: all 0.05s ease-in;
-                    border: 1px #000000 solid;
-                    margin-right: 5px;
-                    &:hover {
-                        box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
-                        background-position-y: 2px;
-                    }
-                }
-                .input_edit {
-                    background: $lesser6-color url(../Images/function_edit);
-                    background-position-x: 2px;
-                    border-color: darken($lesser6-color,2%);
-                    &:hover{
-                      background-color: darken($lesser6-color,10%);
-                    }
-                }
-                .input_delete {
-                    background: $lesser7-color url(../Images/function_edit);
-                    background-position: -31px 0px;
-                    border-color: darken($lesser7-color,2%);
-                    &:hover{
-                      background-color: darken($lesser7-color,10%);
-                    }
-                }
-                .input_other {
-                    background: #cfcfcf url(../Images/function_edit);
-                    background-position-x: -61px;
-                    border-color: #9a9a9a;
-                }
+              width: 165px;
             }
-            .td_date {
-                width: 10%;
-                padding-right: 20px;
+        }
+        // 功能按鈕
+        .funcBtn {
+            border-radius: 50px;
+            transition: all 0.05s ease-in;
+            border: 1px $black solid;
+            margin-right: 5px;
+            padding: 7px 15px;
+            background-position-y: 1px !important;
+            &:active {
+                box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
+                background-position-y: 2px;
             }
+            span{
+              font-size: 0;
+            }
+        }
+        .edit {
+            background: $lesser6-color url(../Images/function_edit);
+            background-position-x: 2px;
+            border-color: darken($lesser6-color,2%);
+            &:hover{
+              background-color: darken($lesser6-color,10%);
+            }
+        }
+        .delete {
+            background: $lesser7-color url(../Images/function_edit);
+            background-position: -31px 0px;
+            border-color: darken($lesser7-color,2%);
+            &:hover{
+              background-color: darken($lesser7-color,10%);
+            }
+        }
+        .other {
+            background: #cfcfcf url(../Images/function_edit);
+            background-position-x: -61px;
+            border-color: #9a9a9a;
         }
     }
 }

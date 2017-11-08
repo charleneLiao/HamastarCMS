@@ -44,6 +44,7 @@ margin-left: 10px;
     &.addRoot {
         a {
           background-color: $lesser5-color;
+          padding: 13px 15px;
             &::before {
               @include fontAwesome('sitemap');
             }
