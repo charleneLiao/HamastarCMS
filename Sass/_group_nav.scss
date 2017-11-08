@@ -60,6 +60,7 @@
                     text-align: left;
                     color: $light-gray;
                     font-size: $font-size-l;
+                    position: relative;
                     &:before {
                         @include fontAwesome('folder-open-o');
                         width: 20px;
@@ -70,7 +71,9 @@
                     &:after {
                         @include icon-font('add');
                         display: inline-block;
-                        float: right;
+                        right: 10px;
+                        position: absolute;
+                        top: 12px;
                     }
                     @include js(false) {
                         text-align: left;
@@ -120,7 +123,7 @@
                         color: currentColor;
                         @include fontAwesome('minus');
                     }
-                    
+
                 }
             }
             >.ct {

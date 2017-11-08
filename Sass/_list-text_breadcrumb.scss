@@ -3,10 +3,10 @@
 //麵包屑================================================================
 
 .list-text.breadcrumb {
-	vertical-align: middle;
+    display: inline-block;
 
 	> .bg-drop-layout > .in, > .in {
-
+    margin: 0 !important;
 	}
 
 	.hd {
@@ -21,7 +21,7 @@
 		}
 
 		span {
-				
+
 		}
 
 		a {
@@ -32,7 +32,7 @@
 	.ct {
 
 		> .in {
-			
+
 		}
 
 		ul {
@@ -45,8 +45,12 @@
 			font-size: $font-size-s;
 
 			&:before {
-				@include icon-font('home');
+        background: url("../Images/icon-home.png") no-repeat;
+        width: 20px;
+        height: 16px;
 				margin-right: $interval-s;
+        content: "";
+        display: inline-block;
 			}
 
 			+ li {
@@ -55,11 +59,11 @@
 					@include icon-font('navigate_next');
 					vertical-align: middle;
 					margin-left: $interval-s;
+          background: none;
 				}
 			}
 
 			&:last-child {
-
 				a {
 					color: $major-color;
 				}
@@ -75,7 +79,7 @@
 		}
 
 		/*i*/.mark {
-			
+
 		}
 	}
 

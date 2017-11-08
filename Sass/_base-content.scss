@@ -1,9 +1,8 @@
 //框架
 //主要內容================================================================
 .base-content {
-    background-color: $white;
-    overflow: hidden;
-    margin-left: 200px;
+    // overflow: hidden;
+    margin-left: 250px;
     @include rwd(1220) {
         width: auto;
     }

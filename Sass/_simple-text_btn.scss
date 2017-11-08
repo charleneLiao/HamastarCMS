@@ -1,50 +1,57 @@
 //簡單文字
 //按鈕================================================================
-.but_add,
-.but_edit {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 40px;
-    width: 40px;
-    border-radius: 50px;
-    transition: all .25s ease-in;
-    &:hover {
-        box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
-        margin-top: 1px;
-        
-    }
+.edit-btnWrap{
+  position: absolute;
+  top:-7px;
+  right: 10px;
+}
+.edit-btn {
+  float: right;
+margin-left: 10px;
     a {
-        font-size: 2em;
-        &::before {
-            position: absolute;
-            top: -12px;
-            right: -4px;
+        font-size: 1.5em;
+        padding: 13px 17px;
+        border-radius: 50px;
+        transition: all .25s ease-in;
+        background-color: $lesser6-color;
+        &:before {
+            margin: 13px 0px 0 0;
+            color: $white;
         }
-    
+        &:active {
+            box-shadow: 0px 2px 0px 1px rgba(50, 51, 102, 0.4) inset;
+            margin-top: 1px;
+        }
+    }
+    span{
+      font-size: 0;
+    }
+    &.edit {
+        a {
+            &::before {
+                @include fontAwesome('pencil');
+            }
+        }
+    }
+    &.add {
+        a {
+          background-color: $lesser4-color;
+            &::before {
+              @include fontAwesome('plus');
+            }
+        }
+    }
+    &.addRoot {
+        a {
+          background-color: $lesser5-color;
+            &::before {
+              @include fontAwesome('sitemap');
+            }
+        }
     }
 }
 
-.but_edit {
-    background-color: #944edb;
-    margin-right: 50px;
-    a {
-        &::before {
-            @include icon-font('mode_edit');
-            color: $white;
-        }
-    }
-}
 
-.but_add {
-    background-color: #4edb89;
-    a {
-        &::before {
-            @include icon-font('add');
-            color: $white;
-        }
-    }
-}
 
 .simple-text.btn {
     >.bg-drop-layout>.in,

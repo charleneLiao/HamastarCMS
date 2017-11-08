@@ -1,9 +1,11 @@
 //自訂
 body {
     background-color: $lesser1-color;
-   
-}
 
+}
+:focus {
+outline: 0;
+}
 .info {
     .base-header & {
         background-color: $white;

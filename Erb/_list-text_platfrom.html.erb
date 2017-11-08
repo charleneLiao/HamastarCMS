@@ -1,29 +1,29 @@
 <div class="list-text platfrom_content" data-index="1" data-type="0">
-	<div class="in"> 
+	<div class="in">
 		<div class="ct">
 			<div class="in">
         <table>
           <tr>
-            <th class="function">功能</th>
-            <th class="pag_type">類型</th>
-            <th class="pag_name">名稱</th>
-            <th>排序</th>
-            <th>點擊數</th>
-            <th>狀態</th>
-            <th>修改人</th>
-            <th class="edit_date">修改時間</th>
+            <th class="td_func">功能</th>
+            <th class="td_type">類型</th>
+            <th class="td_title">名稱</th>
+            <th class="td_rank">排序</th>
+            <th class="td_click">點擊數</th>
+            <th class="td_status">狀態</th>
+            <th class="td_fixMan">修改人</th>
+            <th class="td_date">修改時間</th>
           </tr>
           <% (1..8).each do |n| %>
-          <tr class="tableClass_tr1">
-          　<td class="function"> 
-              <input type="submit"  title="編輯" value="編輯"class="input_edit"></input>
-              <input type="submit" title="刪除" class="input_delete"></input>  
-              <input type="submit"  title="其他" class="input_other"></input> 
+          <tr>
+          　<td class="td-L">
+              <input type="submit"  title="編輯" value="編輯" class="input_edit"></input>
+              <input type="submit" title="刪除" class="input_delete"></input>
+              <input type="submit"  title="其他" class="input_other"></input>
             </td>
           　<td>
               <span><img class="img_system"></span>
             </td>
-            <td class="pag_name">
+            <td class="td-L">
               <span><a href="#" title="名稱"><%= zh_lorem_words rand(10)%></a></span>
             </td>
             <td>
@@ -33,7 +33,7 @@
                   <% n %>
                 <% end %>
               </select>
-               
+
             </td>
             <td><span class="onclick_cost"><%= rand(300) %></span></td>
             <td>
@@ -53,4 +53,3 @@
 		</div>
 	</div>
 </div>
-

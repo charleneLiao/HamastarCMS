@@ -197,8 +197,7 @@
 										> .hd {
 
 											a {
-												color: $light-gray;
-												background-color: deeper($major-color);
+												color: $major-color;
 
 											}
 										}
@@ -208,7 +207,7 @@
 
 							&.is-parent {
 
-								&.is-active, &:hover {
+								&.is-active {
 									z-index: 1; //避免雙層選單覆蓋問題
 
 									> .group.nav {

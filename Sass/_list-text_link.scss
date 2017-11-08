@@ -374,12 +374,27 @@
 
 			> .in {}
 
-			ul {}
+			ul {
+				background: $white;
+				text-align: left;
+				border: 1px solid $light-gray;
+				border-bottom-left-radius: 5px;
+		    border-bottom-right-radius: 5px;
+				margin-top: 2px;
+			}
 
 			li {
-				+ li {
-					a {}
+				border-bottom: 1px solid $light-gray;
+				&:last-child{
+					border-bottom: none;
 				}
+				+ li {
+					a {
+					}
+				}
+				&.detaPublish a:before{background-position-y: -39px;}
+				&.interaction a:before{background-position-y: -80px;}
+				&.webManage a:before{background-position-y: -120px;}
 			}
 
 			span {
@@ -387,6 +402,22 @@
 			}
 
 			a {
+				padding: 10px 17%;
+				display: inline-block;
+				box-sizing: border-box;
+				width: 100%;
+				&:hover{
+					background: lighten($lesser1-color, 1%);
+				}
+				&:before{
+					float: left;
+					margin: 4px 6px 0 0;
+					content: "";
+					width: 16px;
+					height: 16px;
+					display: inline-block;
+					background: url("../Images/icon_account.png") no-repeat;
+				}
 				span {
 					// font-size: 0;
 				}
