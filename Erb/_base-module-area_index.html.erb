@@ -4,6 +4,11 @@
 	<!-- 首頁內容 開始 -->
     <%= yield %>
 	<!-- 首頁內容 結束 -->
-
+	<%= render partial: "/erb/simple-text_heading" , locals: set({ index: 1 })%>
+	<%= render partial: "/erb/simple-text_btn" , locals: set({ index: 1})%>
+	<%= render partial: "/erb/list-text_breadcrumb" , locals: set({ index: 1 })%>
+	<%= render partial: "/erb/area-form_search_down" , locals: set({ index: 1 })%>
+	<%= render partial: "/erb/list-text_platfrom" , locals: set({ index: 1 })%>
+	<%= render partial: "/erb/area-customize_notitle01-pager" %>
 	</div></div>
 </div></div>
