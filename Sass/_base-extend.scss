@@ -13,6 +13,8 @@
     align-items: center;
     border-top: 3px solid $major-color;
     box-shadow: 0px 2px 4px 0 #dde2e3;
+    position: fixed;
+    width: 100%;
     @include media('mobile') {
         position: fixed;
         top: 0;
