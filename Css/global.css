@@ -397,9 +397,9 @@
 }
 
 /* line 972, ../sass/_base-function.scss */
-.base-header .group.nav > .bg-drop-layout > .in > .hd a:before,
+.area-form.login .ct .fieldset .btn-submit, .base-header .group.nav > .bg-drop-layout > .in > .hd a:before,
 .base-header .group.nav > .in > .hd a:before, .base-content .group.nav > .bg-drop-layout > .in > .hd a:hover,
-.base-content .group.nav > .in > .hd a:hover, .simple-text.heading .ct a::before, .base-extend .list-text.link_account .hd p:after, .area-customize.notitle01-pager .ct .btn:before, .edit-btn.edit a::before, .edit-btn.add a::before, .edit-btn.addRoot a::before, .base-extend .area-customize-form_search .ct .fieldset:before, .search_down .fieldset .submit a::before, .area-form.login .ct .fieldset .password label:before, .area-form.login .ct .fieldset .code label:before, .area-form.login .ct .fieldset .code .button a:before {
+.base-content .group.nav > .in > .hd a:hover, .simple-text.heading .ct a::before, .base-extend .list-text.link_account .hd p:after, .area-customize.notitle01-pager .ct .btn:before, .edit-btn.edit a::before, .edit-btn.add a::before, .edit-btn.addRoot a::before, .base-extend .area-customize-form_search .ct .fieldset:before, .search_down .fieldset .submit a::before, .area-form.login .ct .fieldset .password label:before, .area-form.login .ct .fieldset .code label:before, .area-form.login .ct .fieldset .code .button a:before, .area-form.login .ct .essay .forget:before {
   font-family: 'fontAwesome';
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -416,7 +416,7 @@
 }
 
 /* line 1093, ../sass/_base-function.scss */
-.area-form.login .ct .fieldset + .fieldset input[type="submit"], .area-form.login .ct .fieldset .btn-submit {
+.area-form.login .ct .fieldset + .fieldset input[type="submit"] {
   display: inline-block;
   vertical-align: middle;
   width: 100%;
@@ -432,11 +432,11 @@
   color: #ffffff;
   -webkit-transition-property: color;
   transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 /* line 1112, ../sass/_base-function.scss */
-.area-form.login .ct .fieldset + .fieldset input[type="submit"]:before, .area-form.login .ct .fieldset .btn-submit:before {
+.area-form.login .ct .fieldset + .fieldset input[type="submit"]:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -457,18 +457,119 @@
   transition-timing-function: ease-out;
   border-radius: 5px;
 }
-/* line 1133, ../sass/_base-function.scss */
-.area-form.login .ct .fieldset + .fieldset input[type="submit"]:active, .area-form.login .ct .fieldset .btn-submit:active, .area-form.login .ct .fieldset + .fieldset input[type="submit"]:focus, .area-form.login .ct .fieldset .btn-submit:focus, .area-form.login .ct .fieldset + .fieldset input[type="submit"]:hover, .area-form.login .ct .fieldset .btn-submit:hover {
+/* line 1134, ../sass/_base-function.scss */
+.area-form.login .ct .fieldset + .fieldset input[type="submit"]:active, .area-form.login .ct .fieldset + .fieldset input[type="submit"]:focus, .area-form.login .ct .fieldset + .fieldset input[type="submit"]:hover {
   color: #ffffff;
 }
-/* line 1138, ../sass/_base-function.scss */
-.area-form.login .ct .fieldset + .fieldset input[type="submit"]:active:before, .area-form.login .ct .fieldset .btn-submit:active:before, .area-form.login .ct .fieldset + .fieldset input[type="submit"]:focus:before, .area-form.login .ct .fieldset .btn-submit:focus:before, .area-form.login .ct .fieldset + .fieldset input[type="submit"]:hover:before, .area-form.login .ct .fieldset .btn-submit:hover:before {
+/* line 1139, ../sass/_base-function.scss */
+.area-form.login .ct .fieldset + .fieldset input[type="submit"]:active:before, .area-form.login .ct .fieldset + .fieldset input[type="submit"]:focus:before, .area-form.login .ct .fieldset + .fieldset input[type="submit"]:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-/* line 1143, ../sass/_base-function.scss */
-.area-form.login .ct .fieldset + .fieldset input[type="submit"]:active, .area-form.login .ct .fieldset .btn-submit:active {
+/* line 1145, ../sass/_base-function.scss */
+.area-form.login .ct .fieldset + .fieldset input[type="submit"]:active {
   box-shadow: 0px 5px 8px rgba(2, 2, 2, 0.3) inset;
+}
+
+/* line 1150, ../sass/_base-function.scss */
+.area-form.login .ct .fieldset .btn-submit {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background: #2f353f;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+@-webkit-keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes hvr-icon-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+/* line 1221, ../sass/_base-function.scss */
+.area-form.login .ct .fieldset .btn-submit:before {
+  content: "\f061";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+/* line 1230, ../sass/_base-function.scss */
+.area-form.login .ct .fieldset .btn-submit:hover {
+  background: #2890f6;
+}
+/* line 1233, ../sass/_base-function.scss */
+.area-form.login .ct .fieldset .btn-submit:active {
+  box-shadow: 0px 5px 8px rgba(2, 2, 2, 0.3) inset;
+}
+/* line 1239, ../sass/_base-function.scss */
+.area-form.login .ct .fieldset .btn-submit:active:before, .area-form.login .ct .fieldset .btn-submit:focus:before, .area-form.login .ct .fieldset .btn-submit:hover:before {
+  -webkit-animation-name: hvr-icon-wobble-horizontal;
+  animation-name: hvr-icon-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 @font-face {
@@ -2947,6 +3048,16 @@
 /* line 194, ../sass/_base-fontAwesome.scss */
 .edit-btn.edit a::before {
   content: "\f040";
+}
+
+/* line 267, ../sass/_base-fontAwesome.scss */
+.area-form.login .ct .essay .forget:before {
+  content: "\f059";
+}
+
+/* line 288, ../sass/_base-fontAwesome.scss */
+.area-form.login .ct .fieldset .btn-submit {
+  content: "\f061";
 }
 
 /* line 307, ../sass/_base-fontAwesome.scss */
@@ -9728,41 +9839,41 @@ ol.bignum > li:nth-child(100)::before {
   display: block;
 }
 
-/* line 12, ../sass/_area-form_page-form.scss */
+/* line 13, ../sass/_area-form_page-form.scss */
 .area-form.page-form .hd span {
   display: block;
   padding: 8px 15px;
   background-color: #71b6f9;
   color: #ffffff;
 }
-/* line 19, ../sass/_area-form_page-form.scss */
+/* line 20, ../sass/_area-form_page-form.scss */
 .area-form.page-form .hd a {
   color: inherit;
 }
-/* line 27, ../sass/_area-form_page-form.scss */
+/* line 28, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset {
   padding: 30px;
   background-color: #f0f0f0;
 }
 @media screen and (max-width: 560px) {
-  /* line 27, ../sass/_area-form_page-form.scss */
+  /* line 28, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset {
     padding: 15px;
   }
 }
-/* line 37, ../sass/_area-form_page-form.scss */
+/* line 38, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset + .fieldset {
   margin-top: 3px;
   text-align: right;
   padding: 0;
   background-color: transparent;
 }
-/* line 44, ../sass/_area-form_page-form.scss */
+/* line 45, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset + .fieldset input[type="button"], .area-form.page-form .ct .fieldset + .fieldset input[type="reset"], .area-form.page-form .ct .fieldset + .fieldset input[type="submit"] {
   padding: 8px 30px;
   font-size: 1.1em;
 }
-/* line 53, ../sass/_area-form_page-form.scss */
+/* line 54, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.select label, .area-form.page-form .ct .fieldset span.text label, .area-form.page-form .ct .fieldset span.password label, .area-form.page-form .ct .fieldset span.date label:first-child, .area-form.page-form .ct .fieldset span.number label, .area-form.page-form .ct .fieldset span.search label {
   line-height: 26px;
   position: absolute;
@@ -9775,7 +9886,7 @@ ol.bignum > li:nth-child(100)::before {
   text-align: right;
 }
 @media screen and (max-width: 560px) {
-  /* line 53, ../sass/_area-form_page-form.scss */
+  /* line 54, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.select label, .area-form.page-form .ct .fieldset span.text label, .area-form.page-form .ct .fieldset span.password label, .area-form.page-form .ct .fieldset span.date label:first-child, .area-form.page-form .ct .fieldset span.number label, .area-form.page-form .ct .fieldset span.search label {
     line-height: normal !important;
     position: static;
@@ -9786,240 +9897,240 @@ ol.bignum > li:nth-child(100)::before {
     text-align: left;
   }
 }
-/* line 79, ../sass/_area-form_page-form.scss */
+/* line 80, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span {
   display: block;
 }
-/* line 83, ../sass/_area-form_page-form.scss */
+/* line 84, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span[data-message]:after {
   content: attr(data-message);
   margin-left: 3px;
   color: #2f353f;
   display: block;
 }
-/* line 93, ../sass/_area-form_page-form.scss */
+/* line 94, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.is-required label:before {
   content: '* ';
   color: #2f353f;
 }
-/* line 101, ../sass/_area-form_page-form.scss */
+/* line 102, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.is-error label {
   color: #2f353f;
 }
-/* line 105, ../sass/_area-form_page-form.scss */
+/* line 106, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.is-error input {
   border-color: #2f353f;
 }
-/* line 109, ../sass/_area-form_page-form.scss */
+/* line 110, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.is-error select {
   border-color: #2f353f;
 }
-/* line 113, ../sass/_area-form_page-form.scss */
+/* line 114, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.is-error textarea {
   border-color: #2f353f;
 }
-/* line 118, ../sass/_area-form_page-form.scss */
+/* line 119, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.select {
   margin-top: 5px;
   position: relative;
   padding-left: 180px;
 }
 @media screen and (max-width: 560px) {
-  /* line 118, ../sass/_area-form_page-form.scss */
+  /* line 119, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.select {
     padding-left: 0;
   }
 }
-/* line 127, ../sass/_area-form_page-form.scss */
+/* line 128, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.select label {
   line-height: 31px;
 }
 @media screen and (max-width: 768px) {
-  /* line 127, ../sass/_area-form_page-form.scss */
+  /* line 128, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.select label {
     margin: 8px 0;
   }
 }
-/* line 137, ../sass/_area-form_page-form.scss */
+/* line 138, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.text {
   margin-top: 5px;
   position: relative;
   padding-left: 180px;
 }
 @media screen and (max-width: 560px) {
-  /* line 137, ../sass/_area-form_page-form.scss */
+  /* line 138, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.text {
     padding-left: 0;
   }
 }
-/* line 146, ../sass/_area-form_page-form.scss */
+/* line 147, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.text label {
   line-height: 38px;
 }
 @media screen and (max-width: 768px) {
-  /* line 146, ../sass/_area-form_page-form.scss */
+  /* line 147, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.text label {
     margin: 8px 0;
   }
 }
-/* line 156, ../sass/_area-form_page-form.scss */
+/* line 157, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.password {
   margin-top: 5px;
   position: relative;
   padding-left: 180px;
 }
 @media screen and (max-width: 560px) {
-  /* line 156, ../sass/_area-form_page-form.scss */
+  /* line 157, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.password {
     padding-left: 0;
   }
 }
-/* line 165, ../sass/_area-form_page-form.scss */
+/* line 166, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.password label {
   line-height: 38px;
 }
 @media screen and (max-width: 768px) {
-  /* line 165, ../sass/_area-form_page-form.scss */
+  /* line 166, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.password label {
     margin: 8px 0;
   }
 }
-/* line 175, ../sass/_area-form_page-form.scss */
+/* line 176, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.date {
   margin-top: 5px;
   position: relative;
   padding-left: 180px;
 }
-/* line 180, ../sass/_area-form_page-form.scss */
+/* line 181, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.date input {
   background-image: url('../images/icon-pic/calendar.png?1508210966');
   background-position: center right;
   background-repeat: no-repeat;
 }
 @media screen and (max-width: 560px) {
-  /* line 175, ../sass/_area-form_page-form.scss */
+  /* line 176, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.date {
     padding-left: 0;
   }
 }
-/* line 190, ../sass/_area-form_page-form.scss */
+/* line 191, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.date label:first-child {
   line-height: 38px;
 }
 @media screen and (max-width: 768px) {
-  /* line 195, ../sass/_area-form_page-form.scss */
+  /* line 196, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.date label {
     display: block;
     margin: 8px 0;
   }
 }
-/* line 203, ../sass/_area-form_page-form.scss */
+/* line 204, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.number {
   margin-top: 5px;
   position: relative;
   padding-left: 180px;
 }
 @media screen and (max-width: 560px) {
-  /* line 203, ../sass/_area-form_page-form.scss */
+  /* line 204, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.number {
     padding-left: 0;
   }
 }
-/* line 212, ../sass/_area-form_page-form.scss */
+/* line 213, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.number label {
   line-height: 38px;
 }
 @media screen and (max-width: 768px) {
-  /* line 212, ../sass/_area-form_page-form.scss */
+  /* line 213, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.number label {
     margin: 8px 0;
   }
 }
-/* line 222, ../sass/_area-form_page-form.scss */
+/* line 223, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.search {
   margin-top: 5px;
   position: relative;
   padding-left: 180px;
 }
 @media screen and (max-width: 560px) {
-  /* line 222, ../sass/_area-form_page-form.scss */
+  /* line 223, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.search {
     padding-left: 0;
   }
 }
-/* line 231, ../sass/_area-form_page-form.scss */
+/* line 232, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.search label {
   line-height: 38px;
 }
 @media screen and (max-width: 768px) {
-  /* line 231, ../sass/_area-form_page-form.scss */
+  /* line 232, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset span.search label {
     margin: 8px 0;
   }
 }
-/* line 241, ../sass/_area-form_page-form.scss */
+/* line 242, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.submit {
   display: inline-block;
 }
-/* line 245, ../sass/_area-form_page-form.scss */
+/* line 246, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.reset {
   display: inline-block;
 }
-/* line 249, ../sass/_area-form_page-form.scss */
+/* line 250, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset span.button {
   display: inline-block;
 }
-/* line 254, ../sass/_area-form_page-form.scss */
+/* line 255, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset select {
   max-width: 100%;
   line-height: 26px;
 }
-/* line 261, ../sass/_area-form_page-form.scss */
+/* line 262, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset input {
   max-width: 100%;
 }
-/* line 264, ../sass/_area-form_page-form.scss */
+/* line 265, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset input[type="text"] {
   line-height: 26px;
 }
 @media screen and (max-width: 1000px) {
-  /* line 264, ../sass/_area-form_page-form.scss */
+  /* line 265, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset input[type="text"] {
     display: block;
     width: auto;
   }
 }
 @media screen and (max-width: 560px) {
-  /* line 264, ../sass/_area-form_page-form.scss */
+  /* line 265, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset input[type="text"] {
     display: block;
     width: 100%;
   }
 }
-/* line 277, ../sass/_area-form_page-form.scss */
+/* line 278, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset input[type="text"][disabled] {
   border: 0;
   background-color: transparent;
 }
-/* line 283, ../sass/_area-form_page-form.scss */
+/* line 284, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset input[type="password"] {
   line-height: 26px;
 }
 @media screen and (max-width: 1000px) {
-  /* line 283, ../sass/_area-form_page-form.scss */
+  /* line 284, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset input[type="password"] {
     display: block;
     width: auto;
   }
 }
 @media screen and (max-width: 560px) {
-  /* line 283, ../sass/_area-form_page-form.scss */
+  /* line 284, ../sass/_area-form_page-form.scss */
   .area-form.page-form .ct .fieldset input[type="password"] {
     display: block;
     width: 100%;
   }
 }
-/* line 297, ../sass/_area-form_page-form.scss */
+/* line 298, ../sass/_area-form_page-form.scss */
 .area-form.page-form .ct .fieldset input[type="submit"] {
   margin: 3px;
 }
@@ -10055,7 +10166,7 @@ ol.bignum > li:nth-child(100)::before {
 /* line 353, ../sass/_area-form_page-form.scss */
 .area-form.login {
   width: 311px;
-  margin: 100px auto 0;
+  margin: 65px auto 0;
 }
 /* line 363, ../sass/_area-form_page-form.scss */
 .area-form.login .hd h4 {
@@ -10064,43 +10175,70 @@ ol.bignum > li:nth-child(100)::before {
   height: 104px;
   text-align: center;
 }
-/* line 373, ../sass/_area-form_page-form.scss */
+/* line 370, ../sass/_area-form_page-form.scss */
+.area-form.login .hd .avatar {
+  background: url("../Images/avatar_bg.jpg") no-repeat;
+  width: 104px;
+  height: 104px;
+  margin: 0 auto;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 0 0 4px 3px rgba(26, 26, 26, 0.13);
+  position: relative;
+}
+/* line 380, ../sass/_area-form_page-form.scss */
+.area-form.login .hd .avatar:before {
+  content: "";
+  background: url("../Images/avatarDeco.png") no-repeat;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -6px;
+  left: -7px;
+}
+/* line 393, ../sass/_area-form_page-form.scss */
 .area-form.login .hd a {
   color: inherit;
 }
-/* line 379, ../sass/_area-form_page-form.scss */
+/* line 399, ../sass/_area-form_page-form.scss */
 .area-form.login .ct > .in {
   left: 180px;
 }
 @media screen and (max-width: 560px) {
-  /* line 383, ../sass/_area-form_page-form.scss */
+  /* line 403, ../sass/_area-form_page-form.scss */
   .area-form.login .ct .fieldset {
     padding: 15px;
   }
 }
-/* line 390, ../sass/_area-form_page-form.scss */
+/* line 411, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset + .fieldset {
   margin-top: 3px;
   text-align: right;
   padding: 0;
   background-color: transparent;
 }
-/* line 397, ../sass/_area-form_page-form.scss */
+/* line 418, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset + .fieldset input[type="button"], .area-form.login .ct .fieldset + .fieldset input[type="reset"], .area-form.login .ct .fieldset + .fieldset input[type="submit"] {
   padding: 8px 30px;
   font-size: 1.1em;
 }
-/* line 409, ../sass/_area-form_page-form.scss */
-.area-form.login .ct .fieldset .account, .area-form.login .ct .fieldset .password, .area-form.login .ct .fieldset .code {
+/* line 432, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .fieldset .account,
+.area-form.login .ct .fieldset .code,
+.area-form.login .ct .fieldset .password {
   width: 100%;
   display: inline-block;
 }
-/* line 413, ../sass/_area-form_page-form.scss */
+/* line 439, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset select {
   max-width: 100%;
   line-height: 26px;
 }
-/* line 420, ../sass/_area-form_page-form.scss */
+/* line 444, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .fieldset .btn-submit {
+  margin-top: 12px;
+}
+/* line 450, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset input {
   width: 100%;
   background: rgba(255, 255, 255, 0);
@@ -10109,47 +10247,47 @@ ol.bignum > li:nth-child(100)::before {
   transition: all ease-in 0.3s;
   color: #ffffff;
 }
-/* line 427, ../sass/_area-form_page-form.scss */
+/* line 458, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset input::placeholder {
   color: #ffffff;
 }
-/* line 430, ../sass/_area-form_page-form.scss */
+/* line 462, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset input:focus {
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid white;
   box-shadow: 0 0 5px 0 rgba(26, 26, 26, 0.2);
 }
-/* line 435, ../sass/_area-form_page-form.scss */
-.area-form.login .ct .fieldset input[type="text"], .area-form.login .ct .fieldset input[type="password"] {
+/* line 468, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .fieldset input[type="password"], .area-form.login .ct .fieldset input[type="text"] {
   color: #2f353f;
   padding: 10px 0 10px 45px;
 }
-/* line 441, ../sass/_area-form_page-form.scss */
+/* line 475, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset input[type="text"][disabled] {
   border: 0;
   background-color: transparent;
 }
-/* line 453, ../sass/_area-form_page-form.scss */
+/* line 485, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset input[type="submit"] {
   margin: 3px;
 }
-/* line 458, ../sass/_area-form_page-form.scss */
+/* line 490, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset input[type="reset"] {
   margin: 3px;
 }
-/* line 462, ../sass/_area-form_page-form.scss */
+/* line 494, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset input[type="button"] {
   margin: 3px;
 }
-/* line 467, ../sass/_area-form_page-form.scss */
+/* line 499, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset textarea {
   max-width: 100%;
 }
-/* line 471, ../sass/_area-form_page-form.scss */
+/* line 503, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset label {
   position: relative;
 }
-/* line 473, ../sass/_area-form_page-form.scss */
+/* line 506, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset label:before {
   font-size: inherit;
   color: inherit;
@@ -10159,34 +10297,34 @@ ol.bignum > li:nth-child(100)::before {
   font-size: 1.2em;
   color: #414141;
 }
-/* line 482, ../sass/_area-form_page-form.scss */
+/* line 516, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset label span {
   margin: 0;
   font-size: 0;
 }
-/* line 487, ../sass/_area-form_page-form.scss */
+/* line 522, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .account label:before {
   left: 13px;
 }
-/* line 493, ../sass/_area-form_page-form.scss */
+/* line 530, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .code {
   margin: 18px 4px 9px -4px;
   display: inline-block;
 }
-/* line 496, ../sass/_area-form_page-form.scss */
+/* line 534, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .code label:before {
   top: 2px;
 }
-/* line 500, ../sass/_area-form_page-form.scss */
+/* line 539, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .code input {
   display: inline-block;
   width: 62%;
 }
-/* line 505, ../sass/_area-form_page-form.scss */
+/* line 544, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .code .button {
   display: inline-block;
 }
-/* line 507, ../sass/_area-form_page-form.scss */
+/* line 547, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .code .button a {
   width: 100%;
   background: rgba(26, 26, 26, 0);
@@ -10196,35 +10334,59 @@ ol.bignum > li:nth-child(100)::before {
   color: #1a1a1a;
   padding: 4px 8px;
 }
-/* line 515, ../sass/_area-form_page-form.scss */
-.area-form.login .ct .fieldset .code .button a:hover, .area-form.login .ct .fieldset .code .button a:active {
+/* line 556, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .fieldset .code .button a:active, .area-form.login .ct .fieldset .code .button a:hover {
   background: rgba(26, 26, 26, 0.8);
   border: 1px solid #1a1a1a;
   color: #ffffff;
 }
-/* line 520, ../sass/_area-form_page-form.scss */
+/* line 563, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .code .button a:active {
-  box-shadow: inset 0 2px 2px 0px rgba(26, 26, 26, 0.7);
+  box-shadow: inset 0 2px 2px 0 rgba(26, 26, 26, 0.7);
 }
-/* line 527, ../sass/_area-form_page-form.scss */
+/* line 571, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .code .button a span {
   font-size: 0;
 }
-/* line 534, ../sass/_area-form_page-form.scss */
+/* line 578, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .img {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 538, ../sass/_area-form_page-form.scss */
+/* line 582, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .img span {
   display: block;
 }
-/* line 542, ../sass/_area-form_page-form.scss */
+/* line 586, ../sass/_area-form_page-form.scss */
 .area-form.login .ct .fieldset .img img {
   display: block;
   border: 1px solid #b6c0ca;
   border-color: #7a7a7a;
   margin: 0;
+}
+/* line 595, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .essay {
+  font-size: 0.9em;
+  margin-top: 55px;
+}
+/* line 600, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .essay .forget:before {
+  margin-right: 3px;
+}
+/* line 605, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .essay .forget a {
+  border: 1px solid #2f353f;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+/* line 610, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .essay .forget a:hover {
+  background: rgba(47, 53, 63, 0.4);
+  color: #ffffff;
+}
+/* line 615, ../sass/_area-form_page-form.scss */
+.area-form.login .ct .essay .forget a:active {
+  box-shadow: 0px 5px 8px rgba(2, 2, 2, 0.3) inset;
 }
 
 /* line 41, ../sass/_area-form_submit.scss */

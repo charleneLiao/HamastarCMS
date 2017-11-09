@@ -1,8 +1,9 @@
 //表單區塊
 //內頁表單================================================================
+
 .area-form.page-form {
-	 > .in,
-	> .bg-drop-layout > .in {}
+	 > .bg-drop-layout > .in,
+	> .in {}
 
 	.hd {
 		> .in {}
@@ -297,7 +298,6 @@
 				&[type="submit"] {
 					margin: $interval-xs;
 					@extend %btn-imp;
-
 				}
 
 				&[type="reset"] {
@@ -352,10 +352,10 @@
 
 .area-form.login {
 	width: 311px;
-	margin: 100px auto 0;
+	margin: 65px auto 0;
 
-	 > .in,
-	> .bg-drop-layout > .in {}
+	 > .bg-drop-layout > .in,
+	> .in {}
 
 	.hd {
 		> .in {}
@@ -366,9 +366,29 @@
 			height: 104px;
 			text-align: center;
 		}
+		// 大頭照
+		.avatar {
+			background: url("../Images/avatar_bg.jpg") no-repeat;
+			width: 104px;
+			height: 104px;
+			margin: 0 auto;
+			border-radius: 100px;
+			overflow: hidden;
+			box-shadow: 0 0 4px 3px rgba($black, 0.13);
+			position: relative;
 
-		span {
+			&:before {
+				content: "";
+				background: url("../Images/avatarDeco.png") no-repeat;
+				width: 120px;
+				height: 120px;
+				position: absolute;
+				top: -6px;
+				left: -7px;
+			}
 		}
+
+		span {}
 
 		a {
 			color: inherit;
@@ -383,6 +403,7 @@
 		.fieldset {
 			$height: 26px;
 			$left: 180px;
+
 			@include media ('phone') {
 				padding: $interval-l;
 			}
@@ -400,23 +421,32 @@
 						padding: $interval-m $interval-xl;
 						font-size: 1.1em;
 					}
-					&[type="submit"]{
+
+					&[type="submit"] {
 						@extend %btn-login;
 						// background: darken($major-color,15%);
 					}
 				}
 			}
-			.account,.password,.code {
+
+			.account,
+			.code,
+			.password {
 				width: 100%;
 				display: inline-block;
 			}
+
 			select {
 				max-width: 100%;
 				line-height: $height;
 			}
-				.btn-submit{
-					@extend %btn-login;
-				}
+
+			.btn-submit {
+				// @extend %btn-login;
+				@extend %btn-go;
+				margin-top: 12px;
+			}
+
 			input {
 				width: 100%;
 				background: rgba($white,0);
@@ -424,31 +454,33 @@
 				border-radius: 5px;
 				transition: all ease-in 0.3s;
 				color: $white;
-				&::placeholder{
+
+				&::placeholder {
 					color: $white;
 				}
-				&:focus{
+
+				&:focus {
 					background: rgba($white,0.2);
 					border: 1px solid rgba($white,1);
 					box-shadow: 0 0 5px 0 rgba($black,0.2);
 				}
-				&[type="text"],&[type="password"]{
+
+				&[type="password"],
+				&[type="text"] {
 					color: $minor-color;
 					padding: 10px 0 10px 45px;
 				}
-				&[type="text"] {
 
+				&[type="text"] {
 					&[disabled] {
 						border: 0;
 						background-color: transparent;
 					}
 				}
 
-				&[type="password"] {
-				}
+				&[type="password"] {}
 
-				&[type="number"] {
-				}
+				&[type="number"] {}
 
 				&[type="submit"] {
 					margin: $interval-xs;
@@ -470,41 +502,49 @@
 
 			label {
 				position: relative;
-				&:before{
+
+				&:before {
 					// @include fontAwesome('user-circle-o');
-					@include icon-font('face');
+					@include icon-font( 'face');
 					position: absolute;
 					bottom: -28px;
-			    left: 16px;
-			    font-size: 1.2em;
+					left: 16px;
+					font-size: 1.2em;
 					color: $deep;
 				}
-				span{
+
+				span {
 					margin: 0;
 					font-size: 0;
 				}
 			}
-			.account label:before{
+
+			.account label:before {
 				left: 13px;
 			}
-			.password label:before{
-				@include fontAwesome('key');
+
+			.password label:before {
+				@include fontAwesome( 'key');
 			}
+
 			.code {
 				margin: 18px 4px 9px -4px;
 				display: inline-block;
-				label:before{
-					@include fontAwesome('credit-card');
+
+				label:before {
+					@include fontAwesome( 'credit-card');
 					top: 2px;
 				}
-				input{
+
+				input {
 					display: inline-block;
-    			width: 62%;
+					width: 62%;
 				}
-        // 驗證碼
-				.button{
+				// 驗證碼
+				.button {
 					display: inline-block;
-					a{
+
+					a {
 						width: 100%;
 						background: rgba($black,0);
 						border: 1px solid rgba($black,0.7);
@@ -512,19 +552,23 @@
 						transition: all ease-in 0.2s;
 						color: $black;
 						padding: 4px 8px;
-						&:hover,&:active{
+
+						&:active,
+						&:hover {
 							background: rgba($black,0.8);
 							border: 1px solid rgba($black,1);
 							color: $white;
 						}
-						&:active{
-							box-shadow: inset 0 2px 2px 0px rgba($black,0.7);
+
+						&:active {
+							box-shadow: inset 0 2px 2px 0 rgba($black,0.7);
 						}
 
-						&:before{
-							@include fontAwesome('refresh');
+						&:before {
+							@include fontAwesome( 'refresh');
 						}
-						span{
+
+						span {
 							font-size: 0;
 						}
 					}
@@ -544,6 +588,33 @@
 					border: $border;
 					border-color: $gray;
 					margin: 0;
+				}
+			}
+		}
+
+		.essay {
+			font-size: 0.9em;
+			margin-top: 55px;
+
+			.forget {
+				&:before {
+					@include fontAwesome( 'question-circle');
+					margin-right: 3px;
+				}
+
+				a {
+					border: 1px solid $minor-color;
+					border-radius: 4px;
+					padding: 2px 4px;
+
+					&:hover {
+						background: rgba($minor-color,0.4);
+						color: $white;
+					}
+
+					&:active {
+						box-shadow: $btn-active;
+					}
 				}
 			}
 		}
