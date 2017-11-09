@@ -1,0 +1,43 @@
+<%
+	min_cell = 2 #最少的欄數量
+	max_cell = 6 #最多的欄數量
+	min_row = 3 #最少的行數量
+	max_row = 12 #最多的行數量
+	min_text = 3 #最少的字元
+	max_text = 8 #最多的字元
+
+	cell_length = (min_cell..max_cell).to_a.sample
+	row_length = (min_row..max_row).to_a.sample
+
+	verification_code = '/images/verification_code.jpg'
+%>
+
+<div class="area-form login" data-index=""><div class="in">
+		<div class="hd"><div class="in">
+			<h4><span><a href="#"><%= header_text %></a></span></h4>
+		</div></div>
+	<div class="ct"><div class="in">
+		<div class="form">
+			<div class="fieldset">
+				<span class="account">
+					<label><span>帳號</span></label>
+					<input type="text" placeholder="帳號">
+				</span>
+				<span class="password">
+					<label><span>密碼</span></label>
+					<input type="password" placeholder="密碼">
+				</span>
+				<span class="code">
+					<label><span>驗證碼</span></label>
+					<input type="text" placeholder="驗證碼">
+					<div class="img"><span style="background-image: url('<%= verification_code %>')"><img src="<%= verification_code %>" alt=""></span></div>
+					<span class="button"><a href="#"><span>重新產生</span></a></span>
+				</span>
+			</div>
+			<div class="fieldset"><span class="submit">
+				<a href="page/page.html.erb" class="btn-submit">登入</a>
+				<span class="reset"><input type="reset" value="清除"></span>
+			</div>
+		</div>
+	</div></div>
+</div></div>

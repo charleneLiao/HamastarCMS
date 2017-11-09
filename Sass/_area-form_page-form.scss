@@ -1,22 +1,13 @@
 //表單區塊
-
 //內頁表單================================================================
-
 .area-form.page-form {
-
-	> .bg-drop-layout > .in, > .in {
-
-	}
+	 > .in,
+	> .bg-drop-layout > .in {}
 
 	.hd {
+		> .in {}
 
-		> .in {
-
-		}
-
-		h4 {
-
-		}
+		h4 {}
 
 		span {
 			display: block;
@@ -31,10 +22,7 @@
 	}
 
 	.ct {
-
-		> .in {
-
-		}
+		> .in {}
 
 		.fieldset {
 			$height: 26px;
@@ -42,7 +30,7 @@
 			padding: $interval-xl;
 			background-color: $light;
 
-			@include media('phone') {
+			@include media ('phone') {
 				padding: $interval-l;
 			}
 
@@ -53,8 +41,9 @@
 				background-color: transparent;
 
 				input {
-
-					&[type="submit"], &[type="reset"], &[type="button"] {
+					&[type="button"],
+					&[type="reset"],
+					&[type="submit"] {
 						padding: $interval-m $interval-xl;
 						font-size: $font-size-l;
 					}
@@ -72,7 +61,7 @@
 				padding: 0 $interval-l;
 				text-align: right;
 
-				@include media('phone') {
+				@include media ('phone') {
 					line-height: normal !important;
 					position: static;
 					top: auto;
@@ -84,17 +73,13 @@
 			}
 
 			.legend {
-
-				span {
-
-				}
+				span {}
 			}
 
 			span {
 				display: block;
 
 				&[data-message] {
-
 					&:after {
 						content: attr(data-message);
 						margin-left: $interval-xs;
@@ -104,9 +89,7 @@
 				}
 
 				&.is-required {
-
 					label {
-
 						&:before {
 							content: '* ';
 							color: $minor-color;
@@ -115,7 +98,6 @@
 				}
 
 				&.is-error {
-
 					label {
 						color: $minor-color;
 					}
@@ -138,7 +120,7 @@
 					position: relative;
 					padding-left: $left;
 
-					@include media('phone') {
+					@include media ('phone') {
 						padding-left: 0;
 					}
 
@@ -146,7 +128,7 @@
 						@extend %labels;
 						line-height: 31px;
 
-						@include media('mobile') {
+						@include media ('mobile') {
 							margin: $interval-m 0;
 						}
 					}
@@ -157,7 +139,7 @@
 					position: relative;
 					padding-left: $left;
 
-					@include media('phone') {
+					@include media ('phone') {
 						padding-left: 0;
 					}
 
@@ -165,7 +147,7 @@
 						@extend %labels;
 						line-height: 38px;
 
-						@include media('mobile') {
+						@include media ('mobile') {
 							margin: $interval-m 0;
 						}
 					}
@@ -176,7 +158,7 @@
 					position: relative;
 					padding-left: $left;
 
-					@include media('phone') {
+					@include media ('phone') {
 						padding-left: 0;
 					}
 
@@ -184,7 +166,7 @@
 						@extend %labels;
 						line-height: 38px;
 
-						@include media('mobile') {
+						@include media ('mobile') {
 							margin: $interval-m 0;
 						}
 					}
@@ -201,7 +183,7 @@
 						background-repeat: no-repeat;
 					}
 
-					@include media('phone') {
+					@include media ('phone') {
 						padding-left: 0;
 					}
 
@@ -211,20 +193,19 @@
 					}
 
 					label {
-
-						@include media('mobile') {
+						@include media ('mobile') {
 							display: block;
 							margin: $interval-m 0;
 						}
 					}
 				}
-				
+
 				&.number {
 					margin-top: $interval-s;
 					position: relative;
 					padding-left: $left;
 
-					@include media('phone') {
+					@include media ('phone') {
 						padding-left: 0;
 					}
 
@@ -232,18 +213,18 @@
 						@extend %labels;
 						line-height: 38px;
 
-						@include media('mobile') {
+						@include media ('mobile') {
 							margin: $interval-m 0;
 						}
 					}
 				}
-				
+
 				&.search {
 					margin-top: $interval-s;
 					position: relative;
 					padding-left: $left;
 
-					@include media('phone') {
+					@include media ('phone') {
 						padding-left: 0;
 					}
 
@@ -251,84 +232,9 @@
 						@extend %labels;
 						line-height: 38px;
 
-						@include media('mobile') {
+						@include media ('mobile') {
 							margin: $interval-m 0;
 						}
-					}
-				}
-
-				&.email {
-					margin-top: $interval-s;
-					position: relative;
-					padding-left: $left;
-
-					@include media('phone') {
-						padding-left: 0;
-					}
-
-					label:first-child {
-						@extend %labels;
-						line-height: 38px;
-					}
-
-					label {
-
-						@include media('mobile') {
-							display: block;
-							margin: $interval-m 0;
-						}
-					}
-				}
-
-				&.file {
-					margin-top: $interval-s;
-					position: relative;
-					padding-left: $left;
-
-					@include media('phone') {
-						padding-left: 0;
-					}
-
-					label {
-						@extend %labels;
-						line-height: 38px;
-
-						@include media('mobile') {
-							margin: $interval-m 0;
-						}
-					}
-				}
-
-				&.radio {
-					margin-top: $interval-s;
-					padding-left: $left;
-
-					@include media('phone') {
-						padding-left: 0;
-					}
-				}
-
-				&.checkbox {
-					margin-top: $interval-s;
-					padding-left: $left;
-
-					@include media('phone') {
-						padding-left: 0;
-					}
-				}
-
-				&.textarea {
-					margin-top: $interval-s;
-					position: relative;
-					padding-left: $left;
-
-					@include media('phone') {
-						padding-left: 0;
-					}
-
-					label {
-						@extend %labels;
-						line-height: 38px;
 					}
 				}
 
@@ -349,9 +255,7 @@
 				max-width: 100%;
 				line-height: $height;
 
-				option {
-
-				}
+				option {}
 			}
 
 			input {
@@ -360,12 +264,12 @@
 				&[type="text"] {
 					line-height: $height;
 
-					@include media('center') {
+					@include media ('center') {
 						display: block;
 						width: auto;
 					}
 
-					@include media('phone') {
+					@include media ('phone') {
 						display: block;
 						width: 100%;
 					}
@@ -379,93 +283,171 @@
 				&[type="password"] {
 					line-height: $height;
 
-					@include media('center') {
+					@include media ('center') {
 						display: block;
 						width: auto;
 					}
 
-					@include media('phone') {
+					@include media ('phone') {
 						display: block;
 						width: 100%;
 					}
 				}
 
-				&[type="date"] {
-					line-height: $height;
+				&[type="submit"] {
+					margin: $interval-xs;
+					@extend %btn-imp;
 
-					@include media('center') {
-						display: block;
-						width: auto;
+				}
+
+				&[type="reset"] {
+					margin: $interval-xs;
+				}
+
+				&[type="button"] {
+					margin: $interval-xs;
+				}
+			}
+
+			textarea {
+				max-width: 100%;
+			}
+
+			label {}
+
+			.img {
+				display: inline-block;
+				vertical-align: middle;
+
+				span {
+					display: block;
+				}
+
+				img {
+					display: block;
+					border: $border;
+					border-color: $gray;
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	.ft {
+		@extend %footer;
+
+		> .in {}
+
+		ul {}
+
+		li {
+			&.advanced {}
+		}
+
+		span {}
+
+		a {}
+	}
+}
+
+.area-form.login {
+	width: 311px;
+	margin: 100px auto 0;
+
+	 > .in,
+	> .bg-drop-layout > .in {}
+
+	.hd {
+		> .in {}
+
+		h4 {
+			background: url("../Images/loginLogo.png") no-repeat 50%;
+			width: 100%;
+			height: 104px;
+			text-align: center;
+		}
+
+		span {
+		}
+
+		a {
+			color: inherit;
+		}
+	}
+
+	.ct {
+		> .in {
+			left: 180px;
+		}
+
+		.fieldset {
+			$height: 26px;
+			$left: 180px;
+			@include media ('phone') {
+				padding: $interval-l;
+			}
+
+			+ .fieldset {
+				margin-top: $interval-xs;
+				text-align: right;
+				padding: 0;
+				background-color: transparent;
+
+				input {
+					&[type="button"],
+					&[type="reset"],
+					&[type="submit"] {
+						padding: $interval-m $interval-xl;
+						font-size: 1.1em;
 					}
-
-					@include media('phone') {
-						display: block;
-						width: 100%;
+					&[type="submit"]{
+						@extend %btn-login;
+						// background: darken($major-color,15%);
 					}
 				}
-				
+			}
+			.account,.password,.code {
+				width: 100%;
+				display: inline-block;
+			}
+			select {
+				max-width: 100%;
+				line-height: $height;
+			}
+				.btn-submit{
+					@extend %btn-login;
+				}
+			input {
+				width: 100%;
+				background: rgba($white,0);
+				border: 1px solid rgba($white,0.7);
+				border-radius: 5px;
+				transition: all ease-in 0.3s;
+				color: $white;
+				&::placeholder{
+					color: $white;
+				}
+				&:focus{
+					background: rgba($white,0.2);
+					border: 1px solid rgba($white,1);
+					box-shadow: 0 0 5px 0 rgba($black,0.2);
+				}
+				&[type="text"],&[type="password"]{
+					color: $minor-color;
+					padding: 10px 0 10px 45px;
+				}
+				&[type="text"] {
+
+					&[disabled] {
+						border: 0;
+						background-color: transparent;
+					}
+				}
+
+				&[type="password"] {
+				}
+
 				&[type="number"] {
-					line-height: $height;
-
-					@include media('center') {
-						display: block;
-						width: auto;
-					}
-
-					@include media('phone') {
-						display: block;
-						width: 100%;
-					}
-				}
-				
-				&[type="search"] {
-					line-height: $height;
-
-					@include media('center') {
-						display: block;
-						width: auto;
-					}
-
-					@include media('phone') {
-						display: block;
-						width: 100%;
-					}
-				}
-
-				&[type="email"] {
-					line-height: $height;
-
-					@include media('center') {
-						display: block;
-						width: auto;
-					}
-
-					@include media('phone') {
-						display: block;
-						width: 100%;
-					}
-				}
-
-				&[type="file"] {
-					line-height: $height;
-
-					@include media('center') {
-						display: block;
-						width: auto;
-					}
-
-					@include media('phone') {
-						display: block;
-						width: 100%;
-					}
-				}
-
-				&[type="radio"] {
-					line-height: $height;
-				}
-
-				&[type="checkbox"] {
-					line-height: $height;
 				}
 
 				&[type="submit"] {
@@ -487,7 +469,66 @@
 			}
 
 			label {
+				position: relative;
+				&:before{
+					// @include fontAwesome('user-circle-o');
+					@include icon-font('face');
+					position: absolute;
+					bottom: -28px;
+			    left: 16px;
+			    font-size: 1.2em;
+					color: $deep;
+				}
+				span{
+					margin: 0;
+					font-size: 0;
+				}
+			}
+			.account label:before{
+				left: 13px;
+			}
+			.password label:before{
+				@include fontAwesome('key');
+			}
+			.code {
+				margin: 18px 4px 9px -4px;
+				display: inline-block;
+				label:before{
+					@include fontAwesome('credit-card');
+					top: 2px;
+				}
+				input{
+					display: inline-block;
+    			width: 62%;
+				}
+        // 驗證碼
+				.button{
+					display: inline-block;
+					a{
+						width: 100%;
+						background: rgba($black,0);
+						border: 1px solid rgba($black,0.7);
+						border-radius: 5px;
+						transition: all ease-in 0.2s;
+						color: $black;
+						padding: 4px 8px;
+						&:hover,&:active{
+							background: rgba($black,0.8);
+							border: 1px solid rgba($black,1);
+							color: $white;
+						}
+						&:active{
+							box-shadow: inset 0 2px 2px 0px rgba($black,0.7);
+						}
 
+						&:before{
+							@include fontAwesome('refresh');
+						}
+						span{
+							font-size: 0;
+						}
+					}
+				}
 			}
 
 			.img {
@@ -511,27 +552,16 @@
 	.ft {
 		@extend %footer;
 
-		> .in {
+		> .in {}
 
-		}
-
-		ul {
-
-		}
+		ul {}
 
 		li {
-
-			&.advanced {
-				
-			}
+			&.advanced {}
 		}
 
-		span {
+		span {}
 
-		}
-
-		a {
-
-		}
+		a {}
 	}
 }

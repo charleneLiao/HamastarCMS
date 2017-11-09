@@ -114,6 +114,7 @@ $btn-text-color: $white; //按鈕文字顏色
 $btn-padding: $interval-s $interval-m; //按鈕內邊距，決定按鈕大小
 $btn-padding-xs: $interval-xs $interval-s; //按鈕內邊距，決定按鈕大小
 $btn-border: 0; //按鈕線框
+$btn-active: 0px 5px 8px rgba(2, 2, 2, 0.3) inset;
 //輸入框樣式================================================================
 $input-padding: $interval-s $interval-m;
 $input-border: $border;
