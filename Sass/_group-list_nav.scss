@@ -213,6 +213,13 @@
 									> .group.nav {
 
 										> .in {
+											>.hd{
+												a{
+													&:after {
+															content: "－"
+													}
+												}
+											}
 
 											> .ct {
 												display: block;

@@ -1,12 +1,12 @@
 define(['getNode', 'mobileFilter', 'getFocusNode'], function(getNode, mobileFilter, getFocusNode){
-	
+
 	function main(env, opt, file){
 
 		var $set = {
 				activeClass: 'is-active',
 				parentClass: 'is-parent',
 				clickToRemove: true,
-				event: 'mouseenter', //jQuery 事件名稱
+				event: 'click', //jQuery 事件名稱
 				debug: false
 			}
 
@@ -53,34 +53,34 @@ define(['getNode', 'mobileFilter', 'getFocusNode'], function(getNode, mobileFilt
 			var $after_a = getFocusNode($last_a);
 
 			$after_a.on('keydown', function(evt){ //模組後第一個 a
-				
+
 				if( evt.which === _tab_key && evt.shiftKey ) {
 					evt.preventDefault();
 					$a.eq($a_length - 1).trigger(file);
 					$last_a.focus();
 				}
 			});
-			
+
 			for( var i = 0; i < $a_length; i++ ) {
 
 				(function(i){
 					var $this = $a.eq(i),
 						$item = $child_node_content.eq(i),
 						$before_item = $child_node_content.eq(i - 1);
-						
+
 					var $item_all_a = $item.find('[href], input'),
 						$before_item_all_a = $before_item.find('[href], input');
 
 					var _isFirst = ( i === 0 ),
 						_isLast = ( i === $a_length - 1 );
-						
+
 					var $item_last_a = $item_all_a.eq(-1),
 						$before_item_last_a = $before_item_all_a.eq(-1);
 
 					// 觸發 this 就 focus 目標裡的第一個 a
 					$this.on('keydown', function(evt){
 						$li.removeClass($set.activeClass);
-						
+
 						if( evt.which === _tab_key && !evt.shiftKey ) {
 
 							if( $item_all_a.length ) {
@@ -98,7 +98,7 @@ define(['getNode', 'mobileFilter', 'getFocusNode'], function(getNode, mobileFilt
 							}
 						}
 					});
-					
+
 					$item_last_a.on('keydown', function(evt){
 
 						if( evt.which === _tab_key && !evt.shiftKey ) {
@@ -133,6 +133,6 @@ define(['getNode', 'mobileFilter', 'getFocusNode'], function(getNode, mobileFilt
 			console.log('檔案 '+ file +'.js 已順利執行。');
 		}
 	}
-	
+
 	return main;
 });
