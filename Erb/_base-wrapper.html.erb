@@ -6,7 +6,7 @@
 	<!-- test 結束 -->
 
 	<!-- base-header 頁首資訊 -->
-		<%= render partial: "/erb/base-header", locals: set({ index: 1 }) %>
+		<%= render partial: "/erb/base-header", locals: set({ index: 1, func_set: "{'toggleBtn':{'btnOrangeText': ' '}}" }) %>
 	<!-- base-header 結束 -->
 
 	<!-- base-content 主要內容 -->
@@ -19,3 +19,5 @@
 
 	</div></div>
 </div></div>
+
+<%#= render partial: "/erb/group-list_nav", locals: set({ index: 2, func_set: "{'majorNavHorizontal':{},'toggleBtn':{'cookie':'true'},'bindNode':'h3 a'}", header_text: "主選單", inner: "/erb/list-text_nav", menuType: "Menu" }) %>

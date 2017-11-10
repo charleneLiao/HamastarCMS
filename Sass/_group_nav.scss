@@ -61,6 +61,9 @@
                     color: $light-gray;
                     font-size: $font-size-l;
                     position: relative;
+                    &:hover{
+                      background: rgba($black,0.2);
+                    }
                     &:before {
                         @include fontAwesome('folder-open-o');
                         width: 20px;

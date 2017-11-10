@@ -1,23 +1,61 @@
 //框架
 //頁首資訊================================================================
 .base-header {
-    width: 250px;
+    position: fixed;
     height: 100vh;
     float: left;
-    z-index: 2;
-    position: fixed;
-    background: $minor-color;
-    top: 66px;
     @include media('mobile') {
         display: none;
     }
+    &.is-active{
+      .ct{
+        display: none;
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes mymove {
+        from {left: -250px;}
+        to {left: 0px;}
+        }
+        @keyframes move {
+      from {left: -250px;}
+      to {left: 0px;}
+      }
+      // 淡入淡出
+      @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    .fadeIn {
+      animation-name: fadeIn;
+    }
+      }
+      + .base-content{
+            margin-left: 0px;
+      }
+    }
     > .in {
         > .hd {
+        margin: 6px 0 0 7px;
+        float: right;
             > .in {}
-            h3 {}
-            span {}
+            a {
+              &:before{
+                @include fontAwesome('bars');
+                color: $minor-color;
+                font-size: 1.5em;
+              }
+            }
         }
         > .ct {
+          width: 250px;
+          height: 100vh;
+          float: left;
+          z-index: 2;
+          background: $minor-color;
+          position: relative;
+          -webkit-animation-name: move,fadeIn; /* Safari 4.0 - 8.0 */
+          -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+          animation-name: move,fadeIn;
+          animation-duration: 1s;
             > .in {}
         }
     }
